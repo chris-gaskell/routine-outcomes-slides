@@ -1,0 +1,643 @@
+---
+title: "Effectiveness of Psychological Interventions in Routine Practice"
+author: "Dr. Chris Gaskell"
+from: markdown+emoji
+format:
+  revealjs:
+    include-in-header: 
+      text: |
+        <meta name="github-repo" content="chris-gaskell/routine-outcomes-slides"/>
+        <meta name="twitter:title" content="The effectiveness of psychological tnterventions in routine practice"/>
+        <meta name="twitter:description" content="The effectiveness of psychological tnterventions in routine practice"/>
+        <meta name="twitter:url" content="https://fnd-for-aps.netlify.app"/>
+        <meta name="twitter:image" content="https://github.com/chris-gaskell/fnd-for-aps/blob/master/twitter-pic.jpg?raw=true"/>
+        <meta name="twitter:image:alt" content="The effectiveness of psychological tnterventions in routine practice, 06/03/2023."/>
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:creator" content="@chrisgaskell92/>
+        <meta name="twitter:site" content="@chrisgaskell92"/>
+    smaller: false
+    scrollable: true
+    incremental: false
+    theme: [simple, custom.scss]
+    title: "The Effectiveness <br>of Psychological Interventions <br>in Routine Practice"
+    subtitle: "Seminar"
+    preview-links: false
+    preload-iframes: false
+    chalkboard: true
+    author: "Dr. Chris Gaskell"
+    institute: "university of Sheffield"
+    footer: "Effectiveness of Routine Psychological Interventions"
+    transition: slide
+    background-transition: fade
+    transition-speed: slow
+    footnotes-hover: true
+---
+
+## The effectiveness of Psychological Interventions in Routine Practice {style="font-size: 35px; text-align: center;"}
+
+::: {style="text-align: center"}
+*A research seminar for:*
+:::
+
+**The university of Sheffield Psychology**
+
+::: {style="text-align: center"}
+[https://fnd-for-combined.netlify.app](https://fnd-for-combined.netlify.app){.uri style="text-align: center"}
+:::
+
+![](https://images.unsplash.com/photo-1607688387751-c1e95ae09a42?ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODF8fGJyYWlufGVufDB8fDB8fA%253D%253D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60){fig-align="center" width="300" height="300"}
+
+------------------------------------------------------------------------
+
+![](https://pbs.twimg.com/profile_images/1434417640920002563/ZS62zhXl_400x400.jpg){style="border-radius: 70%; box-shadow: 0 0 30px black;" fig-align="left" width="240"}
+
+### Dr. Chris Gaskell
+
+::: {style="font-size: 24px"}
+Senior Clinical Psychologist
+
+Neuropsychology
+
+North Staffordshire Combined Healthcare NHS Trust
+:::
+
+------------------------------------------------------------------------
+
+## Disclaimers
+
+-   I am learning too[^1] :student:
+
+[^1]: Acknowledgements: to supervisors and co-authors: Dr Steve Kellett, Dr Mel Simmons-Buckley & Dr Jaime Delgadillo.
+
+## Contents {background-color="#01364C"}
+
+::: columns
+::: {.column width="50%"}
+-   Effectiveness Research
+
+-   Meta-Analysis
+
+-   Lessons Learnt
+:::
+:::
+
+::: {style="text-align: center; padding: 200px 0;"}
+# Background {background-color="#01364C"}
+:::
+
+## What is Practice-Based Research {background-color="white"}
+
+::: columns
+::: {.column width="50%"}
+![](files/img/barkham-book.jpeg){style="box-shadow: 0 0 20px black;" width="398"}
+:::
+
+::: {.column width="50%"}
+![](files/img/shaddish.jpg){style="box-shadow: 0 0 0px black;" width="600" height="600"}
+:::
+:::
+
+## How does PBE differ from EBP
+
+More supplementing each other as opposed to David & Goliath.
+
+## Limitations of RCTs
+
+## Rationale for the topic
+
+::: {style="text-align: center; padding: 200px 0;"}
+# Method {background-color="#01364C"}
+:::
+
+## Search Criteria
+
+```{r}
+library(tidyverse)
+library(gt)
+
+tribble(
+  ~effectiveness, ~psychological, ~limiters,
+"‘Practice based evidence’", "Psycho* OR Therap [PsycInfo]", "English Language",
+"‘Routine practice’", "Psycho* [CINAHL and MEDLINE]", "Adult Sample",
+"Benchmarking", NA, NA,
+"Transportability", NA, NA,
+"Transferability", NA, NA,
+"Clinical* representat", NA, NA,
+"’External valid* N0 findings", NA, NA,
+"Applicab* N0 findings", NA, NA,
+"Applicab* N0 intervention*", NA, NA,
+"’Empiric* support’ N0 treatment", NA, NA,
+"’Empiric* support’ N0 intervention", NA, NA,
+"’Clinical* Effective*’", NA, NA,
+"Dissem* N0 treatment*", NA, NA,
+"Dissem* N0 intervention*", NA, NA,
+"‘Clinical Practice’ N0 intervention*", NA, NA,
+"‘Clinical Practice’ N0 treatment*", NA, NA,
+"’Service deliv’ N0 intervention", NA, NA,
+"’Service deliv’ N0 treatment", NA, NA,
+"’Clinical* effective’ N2 evaluat", NA, NA,
+"’Service deliv’ N0 evaluat", NA, NA,
+"Transporting", NA, NA,
+"‘Managed care setting’", NA, NA,
+"Uncontrolled", NA, NA,
+"‘Community clinic’", NA, NA,
+"‘Community mental health centre’", NA, NA,
+"‘Clinic setting’", NA, NA,
+"‘Service setting’", NA, NA
+) %>% 
+  gt()
+
+
+```
+
+
+## Analytical methods
+
+## Why meta-analysis?
+
+## Moderators
+
+```{r}
+library(tidyverse)
+library(gt)
+
+tribble(
+  ~moderators, ~levels, ~limiters,
+"Setting", "Psycho*",
+"Analysis", "Psycho",
+"Severity", NA,
+"Modality", NA,
+"Continent", NA,
+"Intervention Development Stage", NA,
+"Experience", NA,
+"Measurement Tool", NA,
+"Sample Size*", NA,
+"Age", NA,
+"Year", NA,
+"Females", NA
+) %>%
+  gt()
+
+
+```
+
+
+::: {style="text-align: center; padding: 200px 0;"}
+# Findings {background-color="#01364C"}
+:::
+
+## Overall Summary ES
+
+```{r}
+#| label: tbl-summary-es
+#| tbl-cap: "Sub-group (categorical) moderator analyses for depression outcomes."
+
+gt::as_raw_html(
+tribble(
+  ~Moderator, ~k,	  ~d,	~Lower,	~Upper,	~p,	~I2,	~Q,
+"Depression",	140,	0.98,	0.90,	1.06,	 "< 0.001",	98.40,	3037.46,
+"Anxiety",  	84,	  0.83,	0.73,	0.92,	 "< 0.001",	97.52,	1488.88,
+"General",  	184,	1.01,	0.93,	1.08,	 "< 0.001",	98.92,	15685.18
+) %>% 
+  #group_by(moderator) %>% 
+  gt()  %>%
+  tab_options(
+    #row_group.background.color = "grey",
+    row_group.font.size = 18,
+    row_group.font.weight = "bold",
+    column_labels.font.weight = "bold",
+    table.font.size = 18,
+    data_row.padding = px(6),
+    table.width = pct(90),
+    row_group.padding = px(5)
+  ) %>%
+  sub_missing(columns = 1:8, missing_text = "-") %>%
+  gt::opt_row_striping(row_striping = T) %>%
+  opt_stylize(style = 6, color = "gray") # %>%
+  # tab_source_note(
+  #   source_note = md())
+)
+```
+
+
+## Moderators
+
+---
+
+## Depression
+
+```{r}
+#| label: tbl-moderator-depression
+#| tbl-cap: "Sub-group (categorical) moderator analyses for depression outcomes."
+
+dat.depression <- 
+   tribble(
+        ~level,                  ~K,      ~SMD,      ~Q,           ~I2,      ~upper, ~lower,     ~mod,
+        "mild",                   34,    1.03,     9550225.84,    "100%",     1.22, 0.85,        "severity",
+        "university",             30,    0.98,     43207.72,      "100%",     1.16, 0.79,        "severity",
+        "Secondary",              57,    0.98,     80913.95,      "100%",     1.11, 0.86,        "severity",
+        "Residential",            15,    0.91,     237284.01,     "100%",     1.12, 0.7,        "severity",
+        "include",                81,    0.93,     9730935.19,    "100%",     1.03, 0.84,        "analysis",
+        "Completers",             59,    1.08,     221034.47,     "100%",     1.22, 0.94,        "analysis",
+        "Outpatient",             121,    0.99,     9660158.7,    "100%",     1.08, 0.91,        "setting",
+        "Residential",            16,    0.92,     240002.33,     "100%",     1.12, 0.72,        "setting",
+        "N.America",              58,    1,     640493.04,        "100%",     1.11, 0.88,        "continent",
+        "UK",                     44,    1.1,     3564904.55,     "100%",     1.26, 0.94,        "continent",
+        "Europe",                 29,    0.95,     60424.34,      "100%",     1.12, 0.77,        "continent",
+        "Australasia",            4,    0.67,     7087.67,        "100%",     1.01, 0.33,        "continent",
+        "Asia",                   5,    0.59,     91.78,          "96%",      0.8, 0.37,        "continent",
+        "psychodynamic",          24,    1.03,     41984.43,      "100%",     1.2, 0.86,        "therapy modality",
+        "Counselling",            6,    0.89,     3471906.01,     "100%",     1.1, 0.69,        "therapy modality",
+        "cognitive-behavioural",  90,    1,     393181.5,         "100%",     1.11, 0.89,        "therapy modality",
+        "Other",                  20,    0.96,     307948.08,     "100%",     1.17, 0.75,        "therapy modality",
+        "routine evaluations",    118,    1,     9955258.72,      "100%",     1.09, 0.91,        "Tretament stage",
+        "preliminary studies",    22,    0.95,     546.66,        "96%",     1.12, 0.78,        "Tretament stage",
+        "qualified",              121,    1.01,     9878905.77,   "100%",     1.1, 0.92,        "experience",
+        "trainees",               19,    0.9,     76281.83,       "100%",     1.06, 0.74,        "experience",
+        "BDI",                    34,    1.02,     121013.68,     "100%",     1.18, 0.86,        "measurement tool",
+        "PHQ-9",                  30,    1.01,     3495045.61,    "100%",     1.22, 0.81,        "measurement tool",
+        "large",                  74,    1.02,     9949550,       "100%",     1.13, 0.91,        "sample size",
+        "small",                  33,    0.85,     625.88,        "95%",     0.99, 0.7,        "sample size",
+        "medium",                 33,    1.08,     5470.21,       "99%",     1.26, 0.89,        "sample size"
+        ) %>% 
+  mutate(
+    mod = str_to_title(mod),
+    level = str_to_title(level),
+    level = recode(level, "Uk" = "UK", "N.america" = "North America", "Europe" = "Mainland Europe",
+                   "Bdi" = "BDI", "Phq-9" = "PHQ 9"),
+    )
+
+gt::as_raw_html(
+dat.depression %>% 
+  mutate("ci" = paste(lower, upper, sep = "-"),
+         es = SMD) %>% 
+  group_by(mod) %>% 
+  gt(rowname_col = "level") %>%
+    cols_hide(columns = c(Q, upper, lower))  %>%
+  tab_options(
+    #row_group.background.color = "grey",
+    row_group.font.size = 16,
+    row_group.font.weight = "bold",
+    column_labels.font.weight = "bold",
+    table.font.size = 14,
+    data_row.padding = px(6),
+    table.width = pct(85),
+    row_group.padding = px(4)
+  ) %>%
+    cols_label(
+    ci = "95% CI",
+    es = "Cohen's d") %>% 
+    tab_header(
+    title = md("**Depression** Outcomes"),
+  ) %>%
+    cols_align(
+    align = "center",
+    columns = c(2:10)
+    ) %>%
+  # tab_style(
+  #       style = cell_text(align = "left", indent = px(30)),
+  #       locations = cells_stub()
+  #   ) %>% 
+  sub_missing(columns = 1:7, missing_text = "-") %>%
+  gt::opt_row_striping(row_striping = T) %>%
+  opt_stylize(style = 6, color = "red") %>%
+gtExtras::gt_plt_conf_int(es, ci_columns = c(lower, upper), text_size = 2, ref_line = 1, width = 100,
+  palette = c("grey", "lightgrey", "black", "red"),
+text_args = list(accuracy = .01)
+  ) %>%
+cols_align(
+  align = "center",
+  columns = c(2:10)
+ )
+)
+
+```
+
+---
+
+## Anxiety
+
+```{r}
+#| label: tbl-moderator-anxiety
+#| tbl-cap: "Sub-group (categorical) moderator analyses for anxiety outcomes."
+ dat.anxiety <- 
+   tribble(
+        ~level,                   ~K,  ~SMD,   ~Q,           ~I2,    ~upper, ~lower,    ~mod,
+        "mild",                  22,   0.99,  334405.48,   "100%",  1.2,     0.79,   "severity",
+        "Secondary",             24,   0.63,  30702.22,    "100%",  0.76,    0.5,    "severity",
+        "Residential",            8,    0.59,  108223.63,   "100%",  0.9,     0.29,   "severity",
+        "university",            29,   1.01,  32067.93,    "100%",  1.2,     0.83,   "severity",
+        "include",               58,   0.81,  517063.05,   "100%",  0.93,    0.69,   "analysis",
+        "Completers",            26,   0.96,  92492.19,    "100%",  1.14,    0.77,   "analysis",
+        "Outpatient",            75,   0.89,  440122.14,   "100%",  0.99,    0.78,   "setting",
+        "Residential",           9,    0.58,  157933.03,   "100%",  0.85,    0.31,   "setting",
+        "N.America",             32,   0.91,  230641.72,   "100%",  1.1,     0.72,   "continent",
+        "UK",                    25,   0.89,  115765.33,   "100%",  1.09,    0.7,    "continent",
+        "Europe",                20,   0.79,  27960.45,    "100%",  0.93,    0.65,   "continent",
+        "Australasia",           4,    0.61,  3781.78,     "100%",  1.01,    0.21,   "continent",
+        "Asia",                  3,    0.59,  3.33,        "40%",   0.68,    0.49,   "continent",
+        "psychodynamic",        12,    0.9,   11879.61,    "100%",   1.04,   0.75,   "therapy modality",
+        "Counselling",          2,     0.43,  28.37,        "96%",   0.49,   0.38,   "therapy modality",
+        "cognitive-behavioural",62,    0.87,  174811.7,    "100%",      1,   0.74,   "therapy modality",
+        "Other",                8,     0.75,  155956.84,    "100%",  0.97,   0.53,   "therapy modality",
+        "routine evaluations",  74,    0.85,  635244.53,    "100%",  0.96,   0.74,   "Tretament stage",
+        "preliminary studies",  10,    0.87,  639.27,       "99%",   1.14,   0.61,   "Tretament stage",
+        "qualified",            66,    0.78,  502201.12,    "100%",  0.88,   0.68,   "experience",
+        "trainees",             18,    1.12,  59913.29,     "100%",  1.39,   0.86,   "experience",
+        "BAI",                  19,    0.71,  36173.3,      "100%",  0.88,   0.54,   "measurement tool",
+        "GAD-7",                19,    0.96,  241386.08,    "100%",  1.15,   0.78,   "measurement tool",
+        "large",                45,    0.84,  635426.98,    "100%",  0.95,   0.72,   "sample size",
+        "medium",               13,    0.93,  2069.64,      "99%",    1.3,   0.57,   "sample size",
+        "small",                26,    0.84,  898.19,       "97%",   1.03,   0.66,   "sample size"
+        ) %>% 
+  mutate(
+    mod = str_to_title(mod),
+    level = str_to_title(level),
+    level = recode(level, "Uk" = "UK", "N.america" = "North America", "Europe" = "Mainland Europe",
+                   "Bai" = "BAI", "Gad-7" = "GAD 7"),
+    ) 
+   
+gt::as_raw_html(
+dat.anxiety %>% 
+  mutate("ci" = paste(lower, upper, sep = "-"),
+         es = SMD) %>% 
+  group_by(mod) %>% 
+  gt(rowname_col = "level") %>%
+    cols_hide(columns = c(Q, upper, lower))  %>%
+  tab_options(
+    #row_group.background.color = "grey",
+    row_group.font.size = 16,
+    row_group.font.weight = "bold",
+    column_labels.font.weight = "bold",
+    table.font.size = 14,
+    data_row.padding = px(6),
+    table.width = pct(85),
+    row_group.padding = px(4)
+  ) %>%
+    cols_label(
+    ci = "95% CI",
+    es = "Cohen's d") %>% 
+    tab_header(
+    title = md("**Anxiety** Outcomes"),
+  ) %>%
+    cols_align(
+    align = "center",
+    columns = c(2:10)
+    ) %>%
+  # tab_style(
+  #       style = cell_text(align = "left", indent = px(30)),
+  #       locations = cells_stub()
+  #   ) %>% 
+  sub_missing(columns = 1:7, missing_text = "-") %>%
+  gt::opt_row_striping(row_striping = T) %>%
+  opt_stylize(style = 6, color = "blue") %>%
+gtExtras::gt_plt_conf_int(es, ci_columns = c(lower, upper), text_size = 2, ref_line = 1, width = 100,
+  palette = c("grey", "lightgrey", "black", "blue"),
+text_args = list(accuracy = .01)
+  ) %>%
+cols_align(
+  align = "center",
+  columns = c(2:10)
+ )
+)   
+
+```
+
+---
+
+## General
+
+```{r}
+#| label: tbl-moderator-general
+#| tbl-cap: "Sub-group (categorical) moderator analyses for general outcomes."
+
+dat.general <- 
+tribble(
+ ~level,                   ~K,   ~SMD,      ~Q,       ~I2,      ~upper, ~lower, ~mod,
+ "mild",                   61,   1.08,   39097618.6,  "100%",    1.21, 0.95,      "severity",
+ "Secondary",              62,   0.98,   111313.98,   "100%",    1.12, 0.84,      "severity",
+ "Residential",            27,   1.09,   66242.24,    "100%",    1.26, 0.91,      "severity",
+ "university",             28,   0.82,   44711.91,    "100%",    0.95, 0.7,      "severity",
+ "include",                95,   0.98,   12421993.52, "100%",    1.09, 0.87,      "analysis",
+ "Completers",             89,   1.08,   10540486.3,  "100%",    1.18, 0.97,      "analysis",
+ "Outpatient",             153,  1,   104250384.75,   "100%",    1.08, 0.92,      "setting",
+ "Residential",            28,   1.08,   67693.6,     "100%",    1.25, 0.91,      "setting",
+ "UK",                     68,   1.02,   92810921.73, "100%",    1.13, 0.92,      "continent",
+ "N.America",              60,   1.07,   4606355.34,  "100%",    1.25, 0.9,      "continent",
+ "Europe",                 47,   1,   157855.31,      "100%",    1.12, 0.88,      "continent",
+ "Australasia",            4,    0.81,   330.52,      "99%",     0.9, 0.72,      "continent",
+ "Asia",                   5,    0.9,   575.15,       "99%",     1.2, 0.61,      "continent",
+ "cognitive-behavioural",  83,   1.18,   178432.53,   "100%",    1.32, 1.05,      "therapy modality",
+ "psychodynamic",          36,   0.93,   49292.89,    "100%",    1.07, 0.79,      "therapy modality",
+ "Counselling",            19,   0.9,   318722.49,    "100%",    1.06, 0.75,      "therapy modality",
+ "Other",                  46,   0.87,   103700450.06,"100%",    0.98, 0.76,      "therapy modality",
+ "preliminary studies",    24,   1.06,   4742.5,      "100%",    1.29, 0.82,      "Tretament stage",
+ "routine evaluations",    160,  1.02,   104380709.35,"100%",    1.1, 0.94,      "Tretament stage",
+ "qualified",              158,  1.07,   104283036.81,"100%",    1.16, 0.99,      "experience",
+ "trainees",               26,   0.77,   71069.62,    "100%",    0.89, 0.65,      "experience",
+ "BSI-GSI",                26,   0.87,   9966.85,     "100%",    1, 0.73,      "measurement tool",
+ "CORE-OM",                35,   1.04,   72198841.45, "100%",    1.18, 0.9,      "measurement tool",
+ "OQ-45",                  13,   0.57,   1090596.15,  "100%",    0.74, 0.41,      "measurement tool",
+ "SCL (Global)",           22,   1.05,   15779.11,    "100%",    1.23, 0.87,      "measurement tool",
+ "PCL",                    12,   1.29,   3642.32,     "100%",    1.61, 0.97,      "measurement tool",
+ "large",                  110,  1.01,   104379542.58,"100%",    1.1, 0.92,      "sample size",
+ "medium",                 38,   1.11,   4366.03,     "99%",     1.3, 0.92,      "sample size",
+ "small",                  36,   0.99,   1001.45,     "97%",     1.18, 0.81,      "sample size"
+ )   %>% 
+  mutate(
+    mod = str_to_title(mod),
+    level = str_to_title(level),
+    level = recode(level, "Uk" = "UK", "N.america" = "North America", "Europe" = "Mainland Europe",
+                   "Bsi-Gsi" = "BSI-GSI", "Scl (Global)" = "SCL (Global)",
+                   "Core-Om" = "CORE-OM", "Pcl" = "PCL",
+                   "Oq-45" = "OQ-45"),
+    ) 
+
+gt::as_raw_html(
+dat.general %>% 
+  mutate("ci" = paste(lower, upper, sep = "-"),
+         es = SMD) %>% 
+  group_by(mod) %>% 
+  gt(rowname_col = "level") %>%
+    cols_hide(columns = c(Q, upper, lower))  %>%
+  tab_options(
+    #row_group.background.color = "grey",
+    row_group.font.size = 16,
+    row_group.font.weight = "bold",
+    column_labels.font.weight = "bold",
+    table.font.size = 14,
+    data_row.padding = px(6),
+    table.width = pct(85),
+    row_group.padding = px(4)
+  ) %>%
+    cols_label(
+    ci = "95% CI",
+    es = "Cohen's d") %>% 
+    tab_header(
+    title = md("**General** Outcomes"),
+  ) %>%
+    cols_align(
+    align = "center",
+    columns = c(2:10)
+    ) %>%
+  # tab_style(
+  #       style = cell_text(align = "left", indent = px(30)),
+  #       locations = cells_stub()
+  #   ) %>% 
+  sub_missing(columns = 1:7, missing_text = "-") %>%
+  gt::opt_row_striping(row_striping = T) %>%
+  opt_stylize(style = 6, color = "green") %>%
+gtExtras::gt_plt_conf_int(es, ci_columns = c(lower, upper), text_size = 2, ref_line = 1, width = 100,
+  palette = c("grey", "lightgrey", "black", "green"),
+text_args = list(accuracy = .01)
+  ) %>%
+cols_align(
+  align = "center",
+  columns = c(2:10)
+ )
+)
+```
+
+
+## Benchmarks
+
+```{r}
+#| label: tbl-moderator-benchmarks
+#| tbl-cap: "Benchmarks for routine services based on individual study sample quartiles."
+
+# dat.benchmarks <-
+#   tribble(
+# ~Group,       ~Domain,     ~Outpatient,	           ~Inpatient,	           ~UCC,                 ~"Uni Clinics",
+# "Top 25%",    "Depression",	 "d = 1.68 [1.53-1.83]", "d = 1.34 [1.16-1.52]",  NA,                   "d = 1.77 [1.50-2.03]",
+# "Top 25%",    "Anxiety",     "d = 1.56 [1.38-1.73", "d = 1.07 [1.04-1.09]",   NA,                   "d = 1.80 [1.57-2.02]",
+# "Top 25%",    "Other",       "d = 1.70 [1.54-1.86]", "d = 1.67 [1.37-1.97]", "d - 1.47 [1.24-1.69]","d = 1.14 [1.10-1.18]",
+# "Average",    "Depression",	 "d = 0.94 [0.90-0.97]", "d = 0.98 [0.81-1.15]",  NA,                   "d = 0.91 [0.87-0.95]",
+# "Average",    "Anxiety",     "d = 0.84 [0.78-0.89]", "d = 0.67 [0.42-0.92]",  NA,                   "d = 1.80 [1.57-2.02]",
+# "Average",    "Other",       "d = 0.92 [0.89-0.96]", "d = 1.04 [0.96-1.11]", "d = 0.94 [0.84-1.03]","d = 0.86 [0.77-0.94]",
+# "Bottom 25%", "Depression",	 "d = 0.46 [0.41-0.52]", "d = 0.38 [0.26-0.5]",   NA,                    "d = 0.40 [0.27-0.54]",
+# "Bottom 25%", "Anxiety",     "d = 0.37 [0.33-0.42]", "d = 0.13 [0.03-0.29]",  NA,                   "d = 0.51 [0.44-0.57]",
+# "Bottom 25%", "Other",       "d = 0.49 [0.43-0.54]", "d = 0.58 [0.46-0.69]", "d = 0.64 [0.61-0.67]","d = 0.41 [0.23-0.59]",
+# )
+
+
+
+dat.benchmarks <-
+  tribble(
+~Group,       ~Domain,       ~Setting,           ~es,     ~lower, ~upper,
+"Top 25%",    "Depression",	 "Outpatient",       1.68,   1.53,     1.83,    
+"Top 25%",    "Anxiety",     "Outpatient",       1.56,   1.38,     1.73,    
+"Top 25%",    "Other",       "Outpatient",       1.70,   1.54,     1.86,    
+"Average",    "Depression",	 "Outpatient",       0.94,   0.90,     0.97,    
+"Average",    "Anxiety",     "Outpatient",       0.84,   0.78,     0.89,    
+"Average",    "Other",       "Outpatient",       0.92,   0.89,     0.96,    
+"Bottom 25%", "Depression",	 "Outpatient",       0.46,   0.41,     0.52,    
+"Bottom 25%", "Anxiety",     "Outpatient",       0.37,   0.33,     0.42,    
+"Bottom 25%", "Other",       "Outpatient",       0.49,   0.43,     0.54,    
+"Top 25%",    "Depression",	 "Inpatient",        1.34,   1.16,     1.52,    
+"Top 25%",    "Anxiety",     "Inpatient",        1.07,   1.04,     1.09,    
+"Top 25%",    "Other",       "Inpatient",        1.67,   1.37,     1.97,    
+"Average",    "Depression",	 "Inpatient",        0.98,   0.81,     1.15,    
+"Average",    "Anxiety",     "Inpatient",        0.67,   0.42,     0.92,    
+"Average",    "Other",       "Inpatient",        1.04,   0.96,     1.11,    
+"Bottom 25%", "Depression",	 "Inpatient",        0.38,   0.26,     0.5,      
+"Bottom 25%", "Anxiety",     "Inpatient",        0.13,   0.03,     0.29,    
+"Bottom 25%", "Other",       "Inpatient",        0.58,   0.46,     0.69,    
+"Top 25%",    "Depression",	 "UCC",                NA,   NA,        NA,                     
+"Top 25%",    "Anxiety",     "UCC",                NA,   NA,        NA,                    
+"Top 25%",    "Other",       "UCC",             1.47 ,   1.24,     1.69,  
+"Average",    "Depression",	 "UCC",                NA,  NA,         NA,         
+"Average",    "Anxiety",     "UCC",                NA,  NA,         NA,         
+"Average",    "Other",       "UCC",             0.94,    0.84,       1.03,  
+"Bottom 25%", "Depression",	 "UCC",                NA,   NA,        NA,                  
+"Bottom 25%", "Anxiety",     "UCC",                NA,   NA,        NA,                  
+"Bottom 25%", "Other",       "UCC",              0.64,  0.61,      0.67,  
+"Top 25%",    "Depression",	 "Uni Clinics",      1.77,  1.50,      2.03,
+"Top 25%",    "Anxiety",     "Uni Clinics",      1.80,  1.57,      2.02,
+"Top 25%",    "Other",       "Uni Clinics",      1.14,  1.10,      1.18,
+"Average",    "Depression",	 "Uni Clinics",      0.91,  0.87,      0.95,
+"Average",    "Anxiety",     "Uni Clinics",      1.80,  1.57,      2.02,
+"Average",    "Other",       "Uni Clinics",      0.86,  0.77,      0.94,
+"Bottom 25%", "Depression",	 "Uni Clinics",      0.40,  0.27,      0.54,
+"Bottom 25%", "Anxiety",     "Uni Clinics",      0.51,  0.44,      0.57,
+"Bottom 25%", "Other",       "Uni Clinics",      0.41,  0.23,      0.59
+) %>% mutate(d = es,
+             ci = paste(lower, upper, sep = "-")
+) %>% relocate(Group, Domain, Setting, es, ci,  lower, upper)
+
+
+
+
+
+gt::as_raw_html(
+dat.benchmarks %>% 
+  group_by(Setting) %>% 
+  gt(rowname_col = "Domain") %>%
+    cols_hide(columns = c(upper, lower))  %>%
+  tab_options(
+    #row_group.background.color = "grey",
+    row_group.font.size = 16,
+    row_group.font.weight = "bold",
+    column_labels.font.weight = "bold",
+    table.font.size = 14,
+    data_row.padding = px(6),
+    table.width = pct(85),
+    row_group.padding = px(4)
+  ) %>%
+    cols_label(
+    ci = "95% CI",
+    es = "Cohen's d"
+      ) %>% 
+    tab_header(
+    title = md("**Benchmarks**"),
+  ) %>%
+    cols_align(
+    align = "center",
+    columns = c(2:8)
+    ) %>%
+  # tab_style(
+  #       style = cell_text(align = "left", indent = px(30)),
+  #       locations = cells_stub()
+  #   ) %>% 
+  sub_missing(columns = 1:8, missing_text = "-") %>%
+  gt::opt_row_striping(row_striping = T) %>%
+  opt_stylize(style = 6, color = "pink") %>%
+  gtExtras::gt_plt_conf_int(d, ci_columns = c(lower, upper), text_size = 2, ref_line = 1, width = 100,
+  palette = c("grey", "lightgrey", "black", "pink"),
+text_args = list(accuracy = .01)
+  )
+)
+```
+
+## Publication Bias
+
+::: {style="text-align: center; padding: 200px 0;"}
+# What it means {background-color="#01364C"}
+:::
+
+## How does this fit with other evidence
+
+## Comparison to other PBE reviews
+
+## Comparison to RCTs
+
+::: {style="text-align: center; padding: 200px 0;"}
+# Limitations {background-color="#01364C"}
+:::
+
+## the design
+
+## Of the methods
+
+## Of the Analysis
+
+::: {style="text-align: center; padding: 200px 0;"}
+# Shiny App {background-color="#01364C"}
+:::
+
+::: {style="text-align: center; padding: 200px 0;"}
+# Lessons Learnt {background-color="#01364C"}
+:::
+
+## Lessons
+
+Reproducible workflows. Project Management. Watertight protocol.
