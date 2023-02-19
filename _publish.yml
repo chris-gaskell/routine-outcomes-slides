@@ -1,0 +1,4 @@
+- source: index.qmd
+  netlify:
+    - id: ea20ff4e-1247-4951-b82d-17a31543b3ed
+      url: 'routine-therapy-outcomes.netlify.app'

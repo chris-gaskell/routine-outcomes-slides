@@ -1,6 +1,4 @@
 ---
-title: "Effectiveness of Psychological Interventions in Routine Practice"
-author: "Dr. Chris Gaskell"
 from: markdown+emoji
 format:
   revealjs:
@@ -17,43 +15,44 @@ format:
         <meta name="twitter:site" content="@chrisgaskell92"/>
     smaller: false
     scrollable: true
+    slide-tone: false
     incremental: false
     theme: [simple, custom.scss]
-    title: "The Effectiveness <br>of Psychological Interventions <br>in Routine Practice"
-    subtitle: "Seminar"
     preview-links: false
     preload-iframes: false
     chalkboard: true
-    author: "Dr. Chris Gaskell"
-    institute: "university of Sheffield"
+    institute: "University of Sheffield"
     footer: "Effectiveness of Routine Psychological Interventions"
     transition: slide
     background-transition: fade
     transition-speed: slow
     footnotes-hover: true
+    fig-cap-location: top
 ---
 
-## The effectiveness of Psychological Interventions in Routine Practice {style="font-size: 35px; text-align: center;"}
+## The Effectiveness of Psychological Interventions in Routine Practice {style="font-size: 35px; text-align: center;"}
 
 ::: {style="text-align: center"}
 *A research seminar for:*
 :::
 
-**The university of Sheffield Psychology**
+**The University of Sheffield Psychology**
 
 ::: {style="text-align: center"}
-[https://fnd-for-combined.netlify.app](https://fnd-for-combined.netlify.app){.uri style="text-align: center"}
+[routine-therapy-outcomes.netlify.app](routine-therapy-outcomes.netlify.app){.uri style="text-align: center"}
 :::
 
-![](https://images.unsplash.com/photo-1607688387751-c1e95ae09a42?ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODF8fGJyYWlufGVufDB8fDB8fA%253D%253D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60){fig-align="center" width="300" height="300"}
+![](https://images.unsplash.com/photo-1507537362848-9c7e70b7b5c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80){fig-align="center" width="500" height="300"}
 
 ------------------------------------------------------------------------
 
-![](https://pbs.twimg.com/profile_images/1434417640920002563/ZS62zhXl_400x400.jpg){style="border-radius: 70%; box-shadow: 0 0 30px black;" fig-align="left" width="240"}
+::: columns
+::: {.column width="50%" style="text-align: center"}
+![](https://pbs.twimg.com/profile_images/1434417640920002563/ZS62zhXl_400x400.jpg){style="border-radius: 50%; box-shadow: 0 0 30px black;" width="240"}
 
 ### Dr. Chris Gaskell
 
-::: {style="font-size: 24px"}
+::: {style="font-size: 24px; text-align: center"}
 Senior Clinical Psychologist
 
 Neuropsychology
@@ -61,28 +60,121 @@ Neuropsychology
 North Staffordshire Combined Healthcare NHS Trust
 :::
 
+::: {.column width="50%" style="text-align: center"}
+:::
+:::
+:::
+
 ------------------------------------------------------------------------
 
 ## Disclaimers
 
--   I am learning too[^1] :student:
+-   I'm learning too[^1] :student:
 
 [^1]: Acknowledgements: to supervisors and co-authors: Dr Steve Kellett, Dr Mel Simmons-Buckley & Dr Jaime Delgadillo.
 
-## Contents {background-color="#01364C"}
+## Aims For This Talk {background-color="#01364C"}
 
 ::: columns
 ::: {.column width="50%"}
--   Effectiveness Research
+-   Overview of effectiveness research.
 
--   Meta-Analysis
+-   Rationale for the current study.
 
--   Lessons Learnt
+-   Findings & Limitations.
+
+-   Provide thoughts on next steps.
+
+-   Tiny overview of meta-analysis.
 :::
 :::
 
 ::: {style="text-align: center; padding: 200px 0;"}
 # Background {background-color="#01364C"}
+:::
+
+## What are the Highlights of Psychotherapy Research?
+
+-   Vast number of RCTs demonstrating that the therapy is efficacious.
+
+-   Specific therapies tend to fare about equal (I.e., Dodo bird effect).
+
+-   Some therapists produce greater outcomes than others ('super shrinks'?).
+
+-   Providing feedback tends to be a good thing.
+
+## The problems with RCTs?
+
+::: columns
+::: {.column width="50%"}
+Advantages of RCTs
+
+-   :white_check_mark: Reduction of bias
+
+-   :white_check_mark: High internal validity
+
+-   :white_check_mark: Generalizability
+
+-   :white_check_mark: Reproducibility
+
+-   :white_check_mark: Objective and reliable
+:::
+
+::: {.column width="50%"}
+::: incremental
+**However:**
+
+-   :x: High cost and resource-intensive
+-   :x: Ethical issues
+-   :x: Limited external validity
+-   :x: Limited scope
+-   :x: Unrepresentative samples
+:::
+:::
+:::
+
+::: notes
+**Advantages**:
+
+1.  **Reduction of bias:** RCTs use randomization to allocate participants into different groups, which helps reduce bias and ensure that the groups are comparable in terms of baseline characteristics.
+2.  **High internal validity:** RCTs are considered the gold standard for evaluating the efficacy of interventions because they provide high internal validity, which means that they can establish causality between the intervention and the outcome.
+3.  **Generalizability:** RCTs typically involve a diverse sample of participants, which increases the generalizability of the findings to the wider population.
+4.  **Reproducibility:** RCTs provide a clear and detailed protocol for how the study was conducted, which allows other researchers to reproduce the study and test the results.
+5.  **Objective and reliable:** RCTs use standardized methods to collect data, which ensures that the results are objective and reliable.
+
+**Disadvantages:**
+
+1.  **High cost and resource-intensive:** RCTs can be expensive and time-consuming, requiring significant funding and resources to conduct.
+2.  **Ethical issues:** In some cases, RCTs may involve withholding treatment from participants in the control group, which can raise ethical concerns.
+3.  **Limited external validity:** RCTs are often conducted in a highly controlled setting and may not fully reflect the real-world conditions in which the intervention will be used.
+4.  **Limited scope:** RCTs are often designed to test a specific intervention, which means that they may not provide a comprehensive understanding of the broader context or underlying mechanisms.
+5.  **Unrepresentative samples:** RCTs may exclude certain groups of people, such as those with comorbidities or those who are pregnant, which can limit the generalizability of the results to those groups.
+:::
+
+## Transporting
+
+Important to continually monitor that treatments work under the conditions that they are purposefully designed for.
+
+Many reasons to assume that the effects of psychotherapy delivered in routine care settings may differ from those observed in clinical trials:
+
+-   Geographical effects
+
+-   Provision
+
+-   EBP
+
+-   Integrity
+
+However, similar treatment outcomes often found between efficacy trials and routine practice (e.g., Lutz et al., 2016; Persons et al., 1999).
+
+## Hour Glass Model
+
+![Salkovskis, P. M. (1995). Demonstrating specific effects in cognitive and behavioural therapy, in M. Aveline & D. Shapiro (Eds.), Research foundations for psychotherapy practice (pp. 191--228). Chichester, UK: Wiley. Taken from BABCP: https://babcp.com/Therapists/A-Cognitive-Behavioural-Therapists-Guide-to-Evidence](files/img/hour-glass.jpg)
+
+::: notes
+Paul Salkovskis has proposed an hour-glass model of psychological treatment, which is a variation of the hour-glass model of research. The model outlines the process of psychological treatment, from the initial assessment to the termination of treatment.
+
+The hour-glass model of psychological treatment proposed by Paul Salkovskis typically involves the following stages:
 :::
 
 ## What is Practice-Based Research {background-color="white"}
@@ -97,26 +189,61 @@ North Staffordshire Combined Healthcare NHS Trust
 :::
 :::
 
-## How does PBE differ from EBP
+## Do Finding Hold in Routine Practice
 
-More supplementing each other as opposed to David & Goliath.
+-   Findings are encouraging
 
-## Limitations of RCTs
+    -   Barkham paper. Jane Cahill1*, Michael Barkham2 and William B. Stiles. Psychological treatment conducted in routine clinic settings is effective for a range of client problems, particularly common mental health problems (uncontrolled effect size 1⁄4 1:29; 95% CI 1⁄4 1:26–1:33, N 1⁄4 10;842). When benchmarked against data from efficacy studies, practice-based studies yielded effect sizes that fell short of the selected benchmark. In contrast, the practice-based studies achieved the benchmark for percentage of clients meeting a stringent criterion for recovery.
 
-## Rationale for the topic
+    -   Hans paper. Eva Hans Wolfgang Hiller. Method: We conducted a random effects meta-analysis of 34 nonrandomized effectiveness studies on outpatient individual and group CBT for adult unipolar depressive disorder. Standardized mean gain effect sizes are reported for end-of-treatment and 6-month follow-up effects for depression severity, dysfunctional cognitions, general anxiety, psychological distress, and functional impairment. The mean dropout rate from CBT is reported. We benchmarked our results against high-quality randomized controlled trials (RCTs). Results: Outpatient CBT was effective in reducing depressive severity in completer (d 􏰀 1.13) and intention-to-treat (ITT) samples (d 􏰀 1.06). Moderate to large posttreatment effect sizes (d 􏰀 0.67–0.88) were found for secondary outcomes. The weighted mean dropout rate was 24.63%. Posttreatment gains for depression were maintained at 6 months after completion of therapy. Effect sizes for depression were inferior to those of benchmark RCTs. Conclusions: Although clinical practice patients show lesser improvements in depressive symptoms than RCT patients, individual and group outpatient CBT can be effectively transported to routine clinical practice. The considerable treatment dropout rate, especially in individual CBT, must be improved. The small number of available studies and low quality of some reports stress the need for high-quality effectiveness studies.
+
+    -   Hunsley Paper (Narrative Review). John Hunsley, Katherine Elliott, and Zoé Therrien. We provide a narrative review of the extensive evidence that supports the efficacy and effectiveness of psychological treatments, across the life span, for common mental health disorders. To this end, relying primarily on meta-analytic studies, we examine the effects of psychological treatments for depression, bipolar disorder, generalised anxiety disorder, social anxiety disorder, specific phobia, panic disorder, obsessive–compulsive disorder, and posttraumatic stress disorder. Based upon data from hundreds of studies and thousands of participants, there is substantial evidence for both the efficacy and effectiveness of specific forms of psychological intervention for these disorders. Moreover, for most disorders, the clinical impact of specific forms of psychological treatment has been found to be at least equal to that of medication. Accordingly, the research evidence strongly supports the use of a number of specific psychological treatments, most of which are cognitive– behavioural treatments, as first-line interventions for these commonly occurring mental disorders among youth, adults, and older adults.
+    
+    - van Ingen paper. Daniel J. van Ingen University of Saint Thomas, Stacy R. Freiheit, Christopher S. Vye. A controversy exists over whether results of randomized controlled trials of psychological treatment methods generalize to routine clinical practice. To examine the generalizability of cognitive–behavioral interventions for anxiety disorders, a meta-analysis of 11 effectiveness studies was conducted. Only studies that closely approximated real-world clinical practice were included in the present meta-analysis (e.g., studies were conducted in a nonuniversity setting, practitioners had regular caseloads, clients were not excluded if they had comorbid conditions). Cognitive– behavioral interventions were associated with significant improvement in anxiety symptoms at the end of treatment (dw 􏰀 1.35) and again at follow-up (dw 􏰀 1.14). On the basis of these results, it seems that cognitive–behavioral interventions for anxiety disorders generalize to real-world clinical practice.
+    
+    - Stewart paper. Stewart and Dianne L. Chambless. The efficacy of cognitive–behavioral therapy (CBT) for anxiety in adults is well established. In the present study, the authors examined whether CBT tested under well-controlled conditions generalizes to less-controlled, real-world circumstances. Fifty-six effectiveness studies of CBT for adult anxiety disorders were located and synthesized. Meta-analytic effect sizes are presented for disorder-specific symptom measures as well as symptoms of generalized anxiety and depression for each disorder, and benchmarked to results from randomized controlled trials. All pretest–posttest effect sizes for disorder- specific symptom measures were large, suggesting that CBT for adult anxiety disorders is effective in clinically representative conditions. Six studies included a control group, and between-groups compar- isons yielded large effect sizes for disorder-specific symptoms in favor of CBT. Benchmarking indicated that results from effectiveness studies were in the range of those obtained in selected efficacy trials. To test whether studies that are more representative of clinical settings have smaller effect sizes, the authors coded studies for 9 criteria for clinical representativeness. Results indicate an inverse relationship between clinical representativeness and outcome, but the magnitude of the relationship is quite small.
+
+- Shaddish paper 2000. 90 studies. Effects increase with larger dose and when outcomes are specific to treatment. 
+
+The considerable growth of the PBE literature in the last decade and Implementation of empirically supported treatments across many settings warrants a comprehensive review of treatment outcomes data.
+
+Aim = Updated review of available PBE studies. The objectives of the study were to:
+
+1.  Establish that treatments are effective.
+2.  Provide benchmarks so that services can compare
+3.  Examine sources of heterogeneity using moderator variables
 
 ::: {style="text-align: center; padding: 200px 0;"}
 # Method {background-color="#01364C"}
 :::
 
+## What is a Meta-Analysis? {background-color="white"}
+
+-   Extract the effect-size from each study, and pool the results into a single effect.
+
+-   Throwing everything into a bucket and seeing what comes out.
+
+-   Problem: **Statistical Dependence**
+
+-   Various possible solutions
+
+    -   Multiple meta-analyses!
+
+![](files/img/buckets.jpg){fig-align="center"}
+
 ## Search Criteria
 
 ```{r}
+#| include: true
+#| eval: true
+#| label: tbl-search-criteria
+#| tbl-cap: "Search criteria used in the systematic review."
 library(tidyverse)
 library(gt)
 
+gt::as_raw_html(
 tribble(
-  ~effectiveness, ~psychological, ~limiters,
+  ~Effectiveness, ~Psychological, ~Limiters,
 "‘Practice based evidence’", "Psycho* OR Therap [PsycInfo]", "English Language",
 "‘Routine practice’", "Psycho* [CINAHL and MEDLINE]", "Adult Sample",
 "Benchmarking", NA, NA,
@@ -145,58 +272,96 @@ tribble(
 "‘Clinic setting’", NA, NA,
 "‘Service setting’", NA, NA
 ) %>% 
-  gt()
+  gt() %>% 
+    tab_options(
+    #row_group.background.color = "grey",
+    row_group.font.size = 18,
+    row_group.font.weight = "bold",
+    column_labels.font.weight = "bold",
+    table.font.size = 18,
+    data_row.padding = px(6),
+    table.width = pct(90),
+    row_group.padding = px(5)
+  ) %>%
+  sub_missing(columns = 1:3, missing_text = "") %>%
+  gt::opt_row_striping(row_striping = T) %>%
+  opt_stylize(style = 6, color = "gray")
 
+)
 
 ```
-
-
-## Analytical methods
-
-## Why meta-analysis?
 
 ## Moderators
 
 ```{r}
-library(tidyverse)
-library(gt)
+#| include: true
+#| eval: true
+#| label: tbl-moderator-definitions
+#| tbl-cap: "Moderators used in the systematic review."
 
+gt::as_raw_html(
 tribble(
-  ~moderators, ~levels, ~limiters,
-"Setting", "Psycho*",
-"Analysis", "Psycho",
-"Severity", NA,
-"Modality", NA,
-"Continent", NA,
-"Intervention Development Stage", NA,
-"Experience", NA,
-"Measurement Tool", NA,
-"Sample Size*", NA,
-"Age", NA,
-"Year", NA,
-"Females", NA
+  ~Moderator,                         ~Type,              ~Levels,        ~Notes,
+    "Setting",                       "Categorical", "a) Outpatient<br>b) Inpatient<br>c) Mixed", NA,
+    "Analysis",                      "Categorical", "a) Included all patients<br>b) Only completers", NA,
+    "Severity",                      "Categorical", "a) **Mild** services (primary care, physical health, university counselling, voluntary, private, EAP).<br>b) **Moderate** services (secondary care, CMHTs, specialist psychotherapy centers, managed care settings, or intensive outpatient programmes).<br>c) **Severe** services (inpatient samples).<br>d) **University** clinics (outpatient and training clinics).", NA,
+    "Modality",                      "Categorical", "a) **Cognitive-behavioral**.<br>b) **Psychodynamic Treatments**.<br>c) **Counselling** (e.g., person-centred, undefined).<br>d) **Other**.", "based on manuscript self-designation (i.e., if the manuscript described treatment as CBT, then that was coded). In the absence of these terms, modality of best-fit was decided using treatment descriptions. ",
+    "Continent",                      "Categorical", "a) North America.<br>b) United Kingdom (UK).<br>c) Mainland Europe.<br>d) Australasia.<br>e) Asia", "The UK was separated from Europe because of the high representation of outcomes research coming from the UK",
+    "Intervention Development Stage", "Categorical", "a) Preliminary studies (i.e., novel treatments/conditions).<br>b) Routine evaluations.", NA,
+    "Experience",                     "Categorical", "a) Trainees.<br>b) Qualified professionals.", NA,
+    "Measurement Tool",               "Categorical", NA, "Measures that were represented at least ten times in the systematic review",
+    "Sample Size",                   "Categorical", "a) Small (N ≤ 25).<br>b) Medium (N = 25–50).<br>c) large (N = 50+)", NA,
+    "Age",                            "Continuous", "Mean average age of sample", NA,
+    "Year",                           "Continuous", "Year of publication", NA,
+    "Females",                        "Continuous", "Rate of females (%)", NA,
 ) %>%
-  gt()
-
+  group_by(Type) %>% 
+   gt() %>% 
+  fmt_markdown(columns = everything()) %>%
+  tab_options(
+    row_group.background.color = "grey",
+    row_group.font.size = 18,
+    row_group.font.weight = "bold",
+    column_labels.font.weight = "bold",
+    table.font.size = 18,
+    data_row.padding = px(6),
+    table.width = pct(90),
+    row_group.padding = px(5)
+  ) %>%
+  sub_missing(columns = 1:4, missing_text = "") %>%
+  gt::opt_row_striping(row_striping = T) %>%
+  opt_stylize(style = 6, color = "gray") %>%
+  cols_width(
+    Moderator ~ px(50),
+    Type ~ px(50),
+    Levels ~ px(150),
+    Notes ~ px(150),
+  )
+)
 
 ```
-
 
 ::: {style="text-align: center; padding: 200px 0;"}
 # Findings {background-color="#01364C"}
 :::
 
+## Prisma {background-color="white"}
+
+![Prisma flow diagram of studies throughout the review](files/img/prisma.jpg){#fig-surus alt="Prisma flow diagram of studies throughout the review" fig-align="center"}
+
 ## Overall Summary ES
 
 ```{r}
+#| include: true
+#| eval: true
 #| label: tbl-summary-es
 #| tbl-cap: "Sub-group (categorical) moderator analyses for depression outcomes."
 
 gt::as_raw_html(
 tribble(
   ~Moderator, ~k,	  ~d,	~Lower,	~Upper,	~p,	~I2,	~Q,
-"Depression",	140,	0.98,	0.90,	1.06,	 "< 0.001",	98.40,	3037.46,
-"Anxiety",  	84,	  0.83,	0.73,	0.92,	 "< 0.001",	97.52,	1488.88,
+"Depression",	140,	0.96,	0.90,	1.06,	 "< 0.001",	98.40,	3037.46,
+"Anxiety",  	84,	  0.80,	0.73,	0.92,	 "< 0.001",	97.52,	1488.88,
 "General",  	184,	1.01,	0.93,	1.08,	 "< 0.001",	98.92,	15685.18
 ) %>% 
   #group_by(moderator) %>% 
@@ -207,26 +372,28 @@ tribble(
     row_group.font.weight = "bold",
     column_labels.font.weight = "bold",
     table.font.size = 18,
-    data_row.padding = px(6),
+    data_row.padding = px(10),
     table.width = pct(90),
     row_group.padding = px(5)
   ) %>%
   sub_missing(columns = 1:8, missing_text = "-") %>%
   gt::opt_row_striping(row_striping = T) %>%
-  opt_stylize(style = 6, color = "gray") # %>%
+  opt_stylize(style = 6, color = "gray") %>%
+   fmt_markdown(columns = everything())
   # tab_source_note(
   #   source_note = md())
 )
 ```
 
-
 ## Moderators
 
----
+------------------------------------------------------------------------
 
 ## Depression
 
 ```{r}
+#| include: false
+#| eval: false
 #| label: tbl-moderator-depression
 #| tbl-cap: "Sub-group (categorical) moderator analyses for depression outcomes."
 
@@ -254,11 +421,13 @@ dat.depression <-
         "preliminary studies",    22,    0.95,     546.66,        "96%",     1.12, 0.78,        "Tretament stage",
         "qualified",              121,    1.01,     9878905.77,   "100%",     1.1, 0.92,        "experience",
         "trainees",               19,    0.9,     76281.83,       "100%",     1.06, 0.74,        "experience",
-        "BDI",                    34,    1.02,     121013.68,     "100%",     1.18, 0.86,        "measurement tool",
-        "PHQ-9",                  30,    1.01,     3495045.61,    "100%",     1.22, 0.81,        "measurement tool",
+        "BDI",                    34,    1.02,     121013.68,     "100%",     1.18, 0.86,        "measure",
+        "PHQ-9",                  30,    1.01,     3495045.61,    "100%",     1.22, 0.81,        "measure",
         "large",                  74,    1.02,     9949550,       "100%",     1.13, 0.91,        "sample size",
-        "small",                  33,    0.85,     625.88,        "95%",     0.99, 0.7,        "sample size",
-        "medium",                 33,    1.08,     5470.21,       "99%",     1.26, 0.89,        "sample size"
+        "small",                  33,    0.85,     625.88,        "95%",     0.99, 0.7,          "sample size",
+        "",                       124,    -.001,     NA,           NA,     NA,  NA,            "publication year",
+        "",                       124,    -.004,     NA,           NA,     NA,  NA,            "sample age",
+        "",                       124,    0.13,      NA,           NA,     NA,  NA,              "% female",
         ) %>% 
   mutate(
     mod = str_to_title(mod),
@@ -301,23 +470,74 @@ dat.depression %>%
   sub_missing(columns = 1:7, missing_text = "-") %>%
   gt::opt_row_striping(row_striping = T) %>%
   opt_stylize(style = 6, color = "red") %>%
-gtExtras::gt_plt_conf_int(es, ci_columns = c(lower, upper), text_size = 2, ref_line = 1, width = 100,
+gtExtras::gt_plt_conf_int(es, ci_columns = c(lower, upper), text_size = 2, ref_line = 0.96, width = 100,
   palette = c("grey", "lightgrey", "black", "red"),
 text_args = list(accuracy = .01)
   ) %>%
 cols_align(
   align = "center",
   columns = c(2:10)
- )
-)
+ )  %>%
+  tab_source_note(
+    source_note = md("*d* = 0.96, *k* = 124, Tau<sup>2</sup> = 0.17[SE = 0.02], I<sup>2</sup> = 99.99%, R<sup>2</sup> = 19.28%")
+    ) %>% 
+   fmt_markdown(columns = everything())
+
+) 
 
 ```
 
----
+------------------------------------------------------------------------
+
+##  {background-color="white" style="color: red"}
+
+```{r}
+#| include: false
+#| eval: false
+#| label: fig-moderator-depression
+#| fig-cap: "Sub-group (categorical) moderator analyses for depression outcomes."
+#| fig-width: 25
+#| fig-height: 18
+
+dat.depression %>%
+  arrange(mod, level) %>% 
+  mutate(level = recode(level, "Include" = "All starting treatment")) %>%
+  filter(level != "" ) %>%
+  ggplot(aes(x = level, y = SMD)) +
+  geom_point() +
+  geom_errorbar(aes(ymin = lower, ymax = upper)) +
+  geom_hline(aes(yintercept = 0.96), linetype = "dashed", color = "red", linewidth = 1.4) +
+  geom_hline(aes(yintercept = 0), linetype = "dashed", color = "black", linewidth = 1.4) +
+  scale_y_continuous(n.breaks = 10) +
+  facet_grid(
+    rows = vars(mod),
+    scales = "free", space = "free", labeller =
+      labeller(mod = label_wrap_gen(8))
+  ) + 
+  coord_flip() +
+  theme_bw() +
+  labs(x = "Sub-group moderator level", y = paste("Cohen's d"), caption = "Note. red line = pooled effect-size; blue line = 0 (no effect)") +
+  theme(strip.text.y.right = element_text(angle = 270, size = 21, colour = "white", face = "bold"),
+        strip.background = element_rect(colour="black",
+                                        fill="red"),
+        strip.placement = "left",
+        legend.position = "bottom",
+        plot.title.position = "plot",
+        text = element_text(size = 22),
+        #strip.text = element_text(face = "bold", size = 12),
+        axis.text.x = element_text(size = 22),
+        panel.grid.minor = element_blank()
+   )
+
+```
+
+------------------------------------------------------------------------
 
 ## Anxiety
 
 ```{r}
+#| include: false
+#| eval: false
 #| label: tbl-moderator-anxiety
 #| tbl-cap: "Sub-group (categorical) moderator analyses for anxiety outcomes."
  dat.anxiety <- 
@@ -344,11 +564,14 @@ cols_align(
         "preliminary studies",  10,    0.87,  639.27,       "99%",   1.14,   0.61,   "Tretament stage",
         "qualified",            66,    0.78,  502201.12,    "100%",  0.88,   0.68,   "experience",
         "trainees",             18,    1.12,  59913.29,     "100%",  1.39,   0.86,   "experience",
-        "BAI",                  19,    0.71,  36173.3,      "100%",  0.88,   0.54,   "measurement tool",
-        "GAD-7",                19,    0.96,  241386.08,    "100%",  1.15,   0.78,   "measurement tool",
+        "BAI",                  19,    0.71,  36173.3,      "100%",  0.88,   0.54,   "measure",
+        "GAD-7",                19,    0.96,  241386.08,    "100%",  1.15,   0.78,   "measure",
         "large",                45,    0.84,  635426.98,    "100%",  0.95,   0.72,   "sample size",
         "medium",               13,    0.93,  2069.64,      "99%",    1.3,   0.57,   "sample size",
-        "small",                26,    0.84,  898.19,       "97%",   1.03,   0.66,   "sample size"
+        "small",                26,    0.84,  898.19,       "97%",   1.03,   0.66,   "sample size",
+        "",                     78,    0.01,       NA,       NA,     NA,  NA,            "publication year",
+        "",                     78,    -0.01,      NA,       NA,     NA,  NA,            "sample age",
+        "",                     78,    -0.22,      NA,       NA,     NA,  NA,              "% female"
         ) %>% 
   mutate(
     mod = str_to_title(mod),
@@ -357,7 +580,7 @@ cols_align(
                    "Bai" = "BAI", "Gad-7" = "GAD 7"),
     ) 
    
-gt::as_raw_html(
+#gt::as_raw_html(
 dat.anxiety %>% 
   mutate("ci" = paste(lower, upper, sep = "-"),
          es = SMD) %>% 
@@ -391,23 +614,70 @@ dat.anxiety %>%
   sub_missing(columns = 1:7, missing_text = "-") %>%
   gt::opt_row_striping(row_striping = T) %>%
   opt_stylize(style = 6, color = "blue") %>%
-gtExtras::gt_plt_conf_int(es, ci_columns = c(lower, upper), text_size = 2, ref_line = 1, width = 100,
+gtExtras::gt_plt_conf_int(es, ci_columns = c(lower, upper), text_size = 2, ref_line = 0.8, width = 100,
   palette = c("grey", "lightgrey", "black", "blue"),
 text_args = list(accuracy = .01)
   ) %>%
 cols_align(
   align = "center",
   columns = c(2:10)
- )
-)   
+ )  %>%
+  tab_source_note(
+    source_note = md("*d* = 0.8, *k* = 78, Tau<sup>2</sup> = 0.13[SE = 0.02], I<sup>2</sup> = 99.95%, R<sup>2</sup> = 40.55%")
+    )
+#)   
 
 ```
 
----
+------------------------------------------------------------------------
+
+## Anxiety Forest Plot {background-color="white"}
+
+```{r}
+#| include: false
+#| eval: false
+#| label: fig-moderator-anxiety
+#| fig-cap: "Sub-group (categorical) moderator analyses for anxiety outcomes."
+#| fig-width: 20
+#| fig-height: 16
+
+dat.anxiety %>%
+  arrange(mod, level) %>% 
+  mutate(level = recode(level, "Include" = "All starting treatment")) %>%
+  filter(level != "" ) %>%
+  ggplot(aes(x = level, y = SMD)) +
+  geom_point() +
+  geom_errorbar(aes(ymin = lower, ymax = upper)) +
+  geom_hline(aes(yintercept = 0.80), linetype = "dashed", color = "red") +
+  geom_hline(aes(yintercept = 0), linetype = "dashed", color = "blue") +
+  scale_y_continuous(n.breaks = 10) +
+  facet_grid(
+    rows = vars(mod),
+    scales = "free", space = "free", labeller =
+      labeller(mod = label_wrap_gen(8))
+  ) + 
+  coord_flip() +
+  theme_bw() +
+  labs(x = "Sub-group moderator level", y = paste("Cohen's d"), caption = "Note. red line = pooled effect-size; blue line = 0 (no effect)") +
+  theme(strip.text.y.right = element_text(angle = 270, size = 17),
+        strip.placement = "left",
+        legend.position = "bottom",
+        plot.title.position = "plot",
+        text = element_text(size = 20),
+        #strip.text = element_text(face = "bold", size = 12),
+        axis.text.x = element_text(size = 20),
+        panel.grid.minor = element_blank()
+   )
+
+```
+
+------------------------------------------------------------------------
 
 ## General
 
 ```{r}
+#| include: false
+#| eval: false
 #| label: tbl-moderator-general
 #| tbl-cap: "Sub-group (categorical) moderator analyses for general outcomes."
 
@@ -435,14 +705,17 @@ tribble(
  "routine evaluations",    160,  1.02,   104380709.35,"100%",    1.1, 0.94,      "Tretament stage",
  "qualified",              158,  1.07,   104283036.81,"100%",    1.16, 0.99,      "experience",
  "trainees",               26,   0.77,   71069.62,    "100%",    0.89, 0.65,      "experience",
- "BSI-GSI",                26,   0.87,   9966.85,     "100%",    1, 0.73,      "measurement tool",
- "CORE-OM",                35,   1.04,   72198841.45, "100%",    1.18, 0.9,      "measurement tool",
- "OQ-45",                  13,   0.57,   1090596.15,  "100%",    0.74, 0.41,      "measurement tool",
- "SCL (Global)",           22,   1.05,   15779.11,    "100%",    1.23, 0.87,      "measurement tool",
- "PCL",                    12,   1.29,   3642.32,     "100%",    1.61, 0.97,      "measurement tool",
+ "BSI-GSI",                26,   0.87,   9966.85,     "100%",    1, 0.73,      "measure",
+ "CORE-OM",                35,   1.04,   72198841.45, "100%",    1.18, 0.9,      "measure",
+ "OQ-45",                  13,   0.57,   1090596.15,  "100%",    0.74, 0.41,      "measure",
+ "SCL (Global)",           22,   1.05,   15779.11,    "100%",    1.23, 0.87,      "measure",
+ "PCL",                    12,   1.29,   3642.32,     "100%",    1.61, 0.97,      "measure",
  "large",                  110,  1.01,   104379542.58,"100%",    1.1, 0.92,      "sample size",
  "medium",                 38,   1.11,   4366.03,     "99%",     1.3, 0.92,      "sample size",
- "small",                  36,   0.99,   1001.45,     "97%",     1.18, 0.81,      "sample size"
+ "small",                  36,   0.99,   1001.45,     "97%",     1.18, 0.81,      "sample size",
+   "",                     153,  0.00,       NA,       NA,     NA,  NA,            "publication year",
+   "",                     153,  -0.00,      NA,       NA,     NA,  NA,            "sample age",
+   "",                     153,  -0.14,      NA,       NA,     NA,  NA,              "% female"
  )   %>% 
   mutate(
     mod = str_to_title(mod),
@@ -487,21 +760,67 @@ dat.general %>%
   sub_missing(columns = 1:7, missing_text = "-") %>%
   gt::opt_row_striping(row_striping = T) %>%
   opt_stylize(style = 6, color = "green") %>%
-gtExtras::gt_plt_conf_int(es, ci_columns = c(lower, upper), text_size = 2, ref_line = 1, width = 100,
+gtExtras::gt_plt_conf_int(es, ci_columns = c(lower, upper), text_size = 2, ref_line = 1.01, width = 100,
   palette = c("grey", "lightgrey", "black", "green"),
 text_args = list(accuracy = .01)
   ) %>%
 cols_align(
   align = "center",
   columns = c(2:10)
- )
+ )   %>%
+  tab_source_note(
+    source_note = md("*d* = 1.01, *k* = 153, Tau<sup>2</sup> = 0.24[SE = 0.03], I<sup>2</sup> = 100%, R<sup>2</sup> = 21.44%")
+    )
 )
 ```
 
+------------------------------------------------------------------------
+
+## General Outcomes Forest Plot {background-color="white"}
+
+```{r}
+#| include: false
+#| eval: false
+#| label: fig-moderator-general
+#| fig-cap: "Sub-group (categorical) moderator analyses for general outcomes."
+#| fig-width: 20
+#| fig-height: 16
+
+dat.general %>%
+  arrange(mod, level) %>% 
+  mutate(level = recode(level, "Include" = "All starting treatment")) %>%
+  filter(level != "" ) %>%
+  ggplot(aes(x = level, y = SMD)) +
+  geom_point() +
+  geom_errorbar(aes(ymin = lower, ymax = upper)) +
+  geom_hline(aes(yintercept = 1.01), linetype = "dashed", color = "red") +
+  geom_hline(aes(yintercept = 0), linetype = "dashed", color = "blue") +
+  scale_y_continuous(n.breaks = 10) +
+  facet_grid(
+    rows = vars(mod),
+    scales = "free", space = "free", labeller =
+      labeller(mod = label_wrap_gen(8))
+  ) + 
+  coord_flip() +
+  theme_bw() +
+  labs(x = "Sub-group moderator level", y = paste("Cohen's d"), caption = "Note. red line = pooled effect-size; blue line = 0 (no effect)") +
+  theme(strip.text.y.right = element_text(angle = 270, size = 17),
+        strip.placement = "left",
+        legend.position = "bottom",
+        plot.title.position = "plot",
+        text = element_text(size = 20),
+        #strip.text = element_text(face = "bold", size = 12),
+        axis.text.x = element_text(size = 20),
+        panel.grid.minor = element_blank()
+   )
+
+```
 
 ## Benchmarks
 
 ```{r}
+#| include: false
+#| eval: false
 #| label: tbl-moderator-benchmarks
 #| tbl-cap: "Benchmarks for routine services based on individual study sample quartiles."
 
