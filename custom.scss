@@ -1,6 +1,7 @@
 /*-- scss:defaults --*/
 $theme-darkblue: #01364C;
 $theme-blue: #99D9DD;
+$theme-green: #7CFC00;
 $theme-white: #F7F8F9;
 $theme-yellow: #F4BA02;
 $theme-baige: #e8e1c6;
@@ -60,3 +61,20 @@ $presentation-font-size-root: 30px;
 .post-content .footnotes {
     margin-top: 40px important;
 }
+
+.blue {
+  color: $theme-blue;
+  font-weight: bold;
+}
+
+.red {
+  color: $theme-red;
+  font-weight: bold;
+}
+
+.green {
+  color: $theme-green;
+  font-weight: bold;
+}
+
+

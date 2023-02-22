@@ -30,6 +30,7 @@ format:
     fig-cap-location: top
 ---
 
+
 ## The Effectiveness of Psychological Interventions in Routine Practice {style="font-size: 35px; text-align: center;"}
 
 ::: {style="text-align: center"}
@@ -191,6 +192,7 @@ The hour-glass model of psychological treatment proposed by Paul Salkovskis typi
 
 ## Review of Effectiveness Research
 
+
 ```{r}
 #| include: true
 #| eval: true
@@ -244,6 +246,7 @@ tribble(
 
 ```
 
+
 ::: notes
 1.  Cahill: When benchmarked against data from efficacy studies, practice-based studies yielded effect sizes that fell short of the selected benchmark. In contrast, the practice-based studies achieved the benchmark for percentage of clients meeting a stringent criterion for recovery.
 2.  Hunsley Paper (Narrative Review). John Hunsley, Katherine Elliott, and Zoé Therrien. We provide a narrative review of the extensive evidence that supports the efficacy and effectiveness of psychological treatments, across the life span, for common mental health disorders. To this end, relying primarily on meta-analytic studies, we examine the effects of psychological treatments for depression, bipolar disorder, generalised anxiety disorder, social anxiety disorder, specific phobia, panic disorder, obsessive--compulsive disorder, and posttraumatic stress disorder.
@@ -279,6 +282,7 @@ Aim = Updated review of available PBE studies. The objectives of the study were 
 ![](files/img/buckets.jpg){fig-align="center"}
 
 ## Search Criteria
+
 
 ```{r}
 #| include: true
@@ -338,7 +342,9 @@ tribble(
 
 ```
 
+
 ## Moderators
+
 
 ```{r}
 #| include: true
@@ -388,6 +394,7 @@ tribble(
 
 ```
 
+
 ::: {style="text-align: center; padding: 200px 0;"}
 # Findings {background-color="#01364C"}
 :::
@@ -397,6 +404,7 @@ tribble(
 ![Prisma flow diagram of studies throughout the review](files/img/prisma.jpg){#fig-surus alt="Prisma flow diagram of studies throughout the review" fig-align="center"}
 
 ## Overall Summary ES
+
 
 ```{r}
 #| include: true
@@ -432,11 +440,13 @@ tribble(
 )
 ```
 
+
 ## Moderators
 
 ------------------------------------------------------------------------
 
 ## [Depression]{.red}
+
 
 ```{r}
 #| include: true
@@ -534,9 +544,11 @@ cols_align(
 
 ```
 
+
 ------------------------------------------------------------------------
 
 ##  {background-color="white" style="color: red"}
+
 
 ```{r}
 #| include: true
@@ -578,9 +590,11 @@ dat.depression %>%
 
 ```
 
+
 ------------------------------------------------------------------------
 
 ## [Anxiety]{.blue}
+
 
 ```{r}
 #| include: true
@@ -676,9 +690,11 @@ cols_align(
 
 ```
 
+
 ------------------------------------------------------------------------
 
 ##  {background-color="white"}
+
 
 ```{r}
 #| include: true
@@ -718,9 +734,11 @@ dat.anxiety %>%
 
 ```
 
+
 ------------------------------------------------------------------------
 
 ## [General]{.green}
+
 
 ```{r}
 #| include: true
@@ -821,9 +839,11 @@ cols_align(
 )
 ```
 
+
 ------------------------------------------------------------------------
 
 ##  {background-color="white"}
+
 
 ```{r}
 #| include: true
@@ -863,7 +883,9 @@ dat.general %>%
 
 ```
 
+
 ## Multi-Meta Regression
+
 
 ```{r}
 #| include: true
@@ -918,7 +940,9 @@ gt::as_raw_html(
 ```
 
 
+
 ## [Benchmarks]{.blue}
+
 
 ```{r}
 #| include: true
@@ -1029,6 +1053,7 @@ text_args = list(accuracy = .01)
 )
 ```
 
+
 ## Publication Bias
 
 ::: {style="text-align: center; padding: 200px 0;"}
@@ -1062,3 +1087,4 @@ text_args = list(accuracy = .01)
 ## Lessons
 
 Reproducible workflows. Project Management. Watertight protocol.
+
