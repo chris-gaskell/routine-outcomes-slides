@@ -36,7 +36,7 @@ format:
 *A research seminar for:*
 :::
 
-**The University of Sheffield Psychology Department**
+**The University of Sheffield Psychology**
 
 ::: {style="text-align: center"}
 [routine-therapy-outcomes.netlify.app](routine-therapy-outcomes.netlify.app){.uri style="text-align: center"}
@@ -71,7 +71,7 @@ North Staffordshire Combined Healthcare NHS Trust
 
 -   I'm learning too[^1] :student:
 
-[^1]: Acknowledgements to supervisors and co-authors: Dr Steve Kellett, Dr Mel Simmons-Buckley & Dr Jaime Delgadillo.
+[^1]: Acknowledgements: to supervisors and co-authors: Dr Steve Kellett, Dr Mel Simmons-Buckley & Dr Jaime Delgadillo.
 
 ## Aims For This Talk {background-color="#01364C"}
 
@@ -79,13 +79,13 @@ North Staffordshire Combined Healthcare NHS Trust
 ::: {.column width="50%"}
 -   Overview of effectiveness research.
 
--   Tiny overview of meta-analysis.
-
 -   Rationale for the current study.
 
--   Findings & limitations.
+-   Findings & Limitations.
 
 -   Provide thoughts on next steps.
+
+-   Tiny overview of meta-analysis.
 :::
 :::
 
@@ -97,13 +97,13 @@ North Staffordshire Combined Healthcare NHS Trust
 
 -   Vast number of RCTs demonstrating that the therapy is efficacious.
 
--   Specific therapies tend to fare about equal (i.e., Dodo bird effect).
+-   Specific therapies tend to fare about equal (I.e., Dodo bird effect).
 
 -   Some therapists produce greater outcomes than others ('super shrinks'?).
 
 -   Providing feedback tends to be a good thing.
 
-## The Problems with RCTs?
+## The problems with RCTs?
 
 ::: columns
 ::: {.column width="50%"}
@@ -153,9 +153,9 @@ Advantages of RCTs
 
 ## Transporting
 
-Important to monitor that treatments work when they return to routine practice.
+Important to continually monitor that treatments work under the conditions that they are purposefully designed for.
 
-Why? Because the effects of psychotherapy delivered in routine care settings may differ from those observed in clinical trials:
+Many reasons to assume that the effects of psychotherapy delivered in routine care settings may differ from those observed in clinical trials:
 
 -   Geographical effects
 
@@ -167,7 +167,7 @@ Why? Because the effects of psychotherapy delivered in routine care settings may
 
 However, similar treatment outcomes often found between efficacy trials and routine practice (e.g., Lutz et al., 2016; Persons et al., 1999).
 
-## Hour Glass Model {background-color="white"}
+## Hour Glass Model
 
 ![Salkovskis, P. M. (1995). Demonstrating specific effects in cognitive and behavioural therapy, in M. Aveline & D. Shapiro (Eds.), Research foundations for psychotherapy practice (pp. 191--228). Chichester, UK: Wiley. Taken from BABCP: https://babcp.com/Therapists/A-Cognitive-Behavioural-Therapists-Guide-to-Evidence](files/img/hour-glass.jpg)
 
@@ -192,23 +192,15 @@ The hour-glass model of psychological treatment proposed by Paul Salkovskis typi
 ## Review of Effectiveness Research
 
 ```{r}
-<<<<<<< HEAD
 #| include: false
 #| eval: false
-=======
-#| include: true
-#| eval: true
->>>>>>> c5e63356136ae3724fa4a3ce46f450cac1221595
 #| label: tbl-effectiveness-reviews
 #| tbl-cap: "Findings from Past Effectiveness Reviews."
 library(tidyverse)
 library(gt)
 
 gt::as_raw_html(
-<<<<<<< HEAD
   
-=======
->>>>>>> c5e63356136ae3724fa4a3ce46f450cac1221595
 tribble(
   ~Paper, ~Condition, ~Treatment, ~Method, ~Studies,  ~Finding,
 "Cahill, Barkham & Stiles (2010)", "Various", "Various", "Review & Meta-Analysis", "31", "d = 1.29",
@@ -219,11 +211,7 @@ tribble(
 "Wakefield, Kellett, Simmonds-Buckley, Stockton, Bradbury & Delgadillo (2020)", "Anxiery & Depression", "IAPT", "Meta-Analysis", "47", "Depression (d = 0.87)<br>Anxiety (d = 0.88)<br>Functioning (d = 0.55)"
 
 ) %>% 
-<<<<<<< HEAD
   gt(rowname_col = "Paper") %>% 
-=======
-  gt() %>% 
->>>>>>> c5e63356136ae3724fa4a3ce46f450cac1221595
     tab_options(
     #row_group.background.color = "grey",
     row_group.font.size = 18,
@@ -254,7 +242,6 @@ tribble(
     columns = c(2:6)
     ) 
 )
-<<<<<<< HEAD
 
 ```
 
@@ -267,18 +254,6 @@ tribble(
 :::
 
 Increase with larger dose and when outcomes are specific to treatment.
-=======
-
-```
-
-::: notes
-1.  Cahill: When benchmarked against data from efficacy studies, practice-based studies yielded effect sizes that fell short of the selected benchmark. In contrast, the practice-based studies achieved the benchmark for percentage of clients meeting a stringent criterion for recovery.
-2.  Hunsley Paper (Narrative Review). John Hunsley, Katherine Elliott, and Zoé Therrien. We provide a narrative review of the extensive evidence that supports the efficacy and effectiveness of psychological treatments, across the life span, for common mental health disorders. To this end, relying primarily on meta-analytic studies, we examine the effects of psychological treatments for depression, bipolar disorder, generalised anxiety disorder, social anxiety disorder, specific phobia, panic disorder, obsessive--compulsive disorder, and posttraumatic stress disorder.
-3.  van Ingen paper. Daniel J. van Ingen University of Saint Thomas, Stacy R. Freiheit, Christopher S. Vye. A controversy exists over whether results of randomized controlled trials of psychological treatment methods generalize to routine clinical practice. To examine the generalizability of cognitive--behavioral interventions for anxiety disorders, a meta-analysis of 11 effectiveness studies was conducted. Only studies that closely approximated real-world clinical practice were included in the present meta-analysis (e.g., studies were conducted in a nonuniversity setting, practitioners had regular caseloads, clients were not excluded if they had comorbid conditions). Cognitive-- behavioral interventions were associated with significant improvement in anxiety symptoms at the end of treatment (dw 􏰀 1.35) and again at follow-up (dw 􏰀 1.14). On the basis of these results, it seems that cognitive--behavioral interventions for anxiety disorders generalize to real-world clinical practice.
-4.  Stewart & Chambless. The efficacy of cognitive--behavioral therapy (CBT) for anxiety in adults is well established. In the present study, the authors examined whether CBT tested under well-controlled conditions generalizes to less-controlled, real-world circumstances. Fifty-six effectiveness studies of CBT for adult anxiety disorders were located and synthesized. Meta-analytic effect sizes are presented for disorder-specific symptom measures as well as symptoms of generalized anxiety and depression for each disorder, and benchmarked to results from randomized controlled trials. All pretest--posttest effect sizes for disorder- specific symptom measures were large, suggesting that CBT for adult anxiety disorders is effective in clinically representative conditions. Six studies included a control group, and between-groups compar- isons yielded large effect sizes for disorder-specific symptoms in favor of CBT. Benchmarking indicated that results from effectiveness studies were in the range of those obtained in selected efficacy trials. To test whether studies that are more representative of clinical settings have smaller effect sizes, the authors coded studies for 9 criteria for clinical representativeness. Results indicate an inverse relationship between clinical representativeness and outcome, but the magnitude of the relationship is quite small.
-5.  Shaddish paper 2000. 90 studies. Effects increase with larger dose and when outcomes are specific to treatment.
-:::
->>>>>>> c5e63356136ae3724fa4a3ce46f450cac1221595
 
 The considerable growth of the PBE literature in the last decade and Implementation of empirically supported treatments across many settings warrants a comprehensive review of treatment outcomes data.
 
@@ -423,7 +398,7 @@ tribble(
 # Findings {background-color="#01364C"}
 :::
 
-## PRISMA Flow Diagram {background-color="white"}
+## Prisma {background-color="white"}
 
 ![Prisma flow diagram of studies throughout the review](files/img/prisma.jpg){#fig-surus alt="Prisma flow diagram of studies throughout the review" fig-align="center"}
 
@@ -482,8 +457,8 @@ cols_align(
 ## [Depression]{.red}
 
 ```{r}
-#| include: true
-#| eval: true
+#| include: false
+#| eval: false
 #| label: tbl-moderator-depression
 #| tbl-cap: "Sub-group (categorical) moderator analyses for depression outcomes."
 
@@ -583,8 +558,8 @@ cols_align(
 ##  {background-color="white" style="color: #FF644E"}
 
 ```{r}
-#| include: true
-#| eval: true
+#| include: false
+#| eval: false
 #| label: fig-moderator-depression
 #| fig-cap: "Sub-group (categorical) moderator analyses for depression outcomes."
 #| fig-width: 25
@@ -627,8 +602,8 @@ dat.depression %>%
 ## [Anxiety]{.blue}
 
 ```{r}
-#| include: true
-#| eval: true
+#| include: false
+#| eval: false
 #| label: tbl-moderator-anxiety
 #| tbl-cap: "Sub-group (categorical) moderator analyses for anxiety outcomes."
  dat.anxiety <- 
@@ -723,15 +698,11 @@ cols_align(
 
 ------------------------------------------------------------------------
 
-<<<<<<< HEAD
 ##  {background-color="white" style="color: #00A1FF"}
-=======
-##  {background-color="white"}
->>>>>>> c5e63356136ae3724fa4a3ce46f450cac1221595
 
 ```{r}
-#| include: true
-#| eval: true
+#| include: false
+#| eval: false
 #| label: fig-moderator-anxiety
 #| fig-cap: "Sub-group (categorical) moderator analyses for anxiety outcomes."
 #| fig-width: 20
@@ -771,15 +742,11 @@ dat.anxiety %>%
 
 ------------------------------------------------------------------------
 
-<<<<<<< HEAD
 ## [Other]{.green}
-=======
-## [General]{.green}
->>>>>>> c5e63356136ae3724fa4a3ce46f450cac1221595
 
 ```{r}
-#| include: true
-#| eval: true
+#| include: false
+#| eval: false
 #| label: tbl-moderator-general
 #| tbl-cap: "Sub-group (categorical) moderator analyses for general outcomes."
 
@@ -880,15 +847,11 @@ cols_align(
 
 ------------------------------------------------------------------------
 
-<<<<<<< HEAD
 ##  {background-color="white" style="color: #038901"}
-=======
-##  {background-color="white"}
->>>>>>> c5e63356136ae3724fa4a3ce46f450cac1221595
 
 ```{r}
-#| include: true
-#| eval: true
+#| include: false
+#| eval: false
 #| label: fig-moderator-general
 #| fig-cap: "Sub-group (categorical) moderator analyses for general outcomes."
 #| fig-width: 20
@@ -926,7 +889,6 @@ dat.general %>%
 
 ```
 
-<<<<<<< HEAD
 ## [Multi-Meta Regression]{.pink}
 
 ```{r}
@@ -951,31 +913,6 @@ gt::as_raw_html(
   "Publication year",   paste(emo::ji("cross mark")),        paste(emo::ji("cross mark")),         paste(emo::ji("cross mark")),            NA,
   "Sample age",         paste(emo::ji("cross mark")),        paste(emo::ji("cross mark")),         paste(emo::ji("cross mark")),            NA,
  " % Female",           paste(emo::ji("cross mark")),        paste(emo::ji("cross mark")),         paste(emo::ji("cross mark")),            NA
-=======
-## Multi-Meta Regression
-
-```{r}
-#| include: true
-#| eval: true
-#| label: tbl-multiple-meta
-#| tbl-cap: "Multiple meta-regression."
-
-gt::as_raw_html(
-  tribble(
-~Moderator,        ~Depression,  ~Anxiety,  ~Other,        ~Notes,
-  "Continent",        "Yes",      "Yes",	      NA,            "**Depression**: UK samples had larger effect sizes compared to samples from Asia.<br>
-                                                                **Anxiety**: UK samples had larger effect sizes compared to samples from mainland Europe.",
-  "Severity",           NA,       "Yes",        NA,            "**Anxiety**: Mild samples had larger effect sizes than moderate or severe samples.",
-  "Modality",           NA,       "Yes",       "Yes",          "**Anxiety**: CBT outperformed counselling interventions.<br>
-                                                                other: CBT outperformed unspecified and psychodynamic interventions.",
-  "Treatment Stage",    NA,        NA,	        NA,            NA,
-  "Analysis",          "Yes",      NA,          NA,            "**Depression**: completer samples outperformed ITT.",
-  "Experience",        "Yes",      NA,	        NA,            "**Depression**: qualified staff outperformed trainees.",        
-  "Sample size",        NA,        NA,          NA,            NA,        
-  "Publication year",   NA,        NA,          NA,            NA,
-  "Sample age",         NA,        NA,          NA,            NA,
- " % Female",           NA,        NA,          NA,            NA
->>>>>>> c5e63356136ae3724fa4a3ce46f450cac1221595
 ) %>% 
   gt(rowname_col = "Moderator") %>%
   tab_options(
@@ -989,46 +926,27 @@ gt::as_raw_html(
     row_group.padding = px(4)
   ) %>% 
     tab_header(
-<<<<<<< HEAD
     title = md("**Multi-Meta Regression**"),
-=======
-    title = md("**Multi-meta**"),
->>>>>>> c5e63356136ae3724fa4a3ce46f450cac1221595
   ) %>%
     cols_align(
     align = "center",
     columns = c(2:4)
     )  %>% 
    fmt_markdown(columns = everything()) %>%
-<<<<<<< HEAD
   sub_missing(columns = 1:5, missing_text = "") %>%
   gt::opt_row_striping(row_striping = T) %>%
   opt_stylize(style = 6, color = "pink")
 
 
-=======
-  # tab_style(
-  #       style = cell_text(align = "left", indent = px(30)),
-  #       locations = cells_stub()
-  #   ) %>% 
-  sub_missing(columns = 1:5, missing_text = "-") %>%
-  gt::opt_row_striping(row_striping = T) %>%
-  opt_stylize(style = 6, color = "pink")
->>>>>>> c5e63356136ae3724fa4a3ce46f450cac1221595
   ) 
 
 ```
 
-<<<<<<< HEAD
 ## [Benchmarks]{.pink}
-=======
-
-## [Benchmarks]{.blue}
->>>>>>> c5e63356136ae3724fa4a3ce46f450cac1221595
 
 ```{r}
-#| include: true
-#| eval: true
+#| include: false
+#| eval: false
 #| label: tbl-moderator-benchmarks
 #| tbl-cap: "Benchmarks for routine services based on individual study sample quartiles."
 
