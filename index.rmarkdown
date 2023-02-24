@@ -30,6 +30,7 @@ format:
     fig-cap-location: top
 ---
 
+
 ## The Effectiveness of Psychological Interventions in Routine Practice {style="font-size: 35px; text-align: center;"}
 
 ::: {style="text-align: center"}
@@ -191,24 +192,16 @@ The hour-glass model of psychological treatment proposed by Paul Salkovskis typi
 
 ## Review of Effectiveness Research
 
+
 ```{r}
-<<<<<<< HEAD
-#| include: false
-#| eval: false
-=======
 #| include: true
 #| eval: true
->>>>>>> c5e63356136ae3724fa4a3ce46f450cac1221595
 #| label: tbl-effectiveness-reviews
 #| tbl-cap: "Findings from Past Effectiveness Reviews."
 library(tidyverse)
 library(gt)
 
 gt::as_raw_html(
-<<<<<<< HEAD
-  
-=======
->>>>>>> c5e63356136ae3724fa4a3ce46f450cac1221595
 tribble(
   ~Paper, ~Condition, ~Treatment, ~Method, ~Studies,  ~Finding,
 "Cahill, Barkham & Stiles (2010)", "Various", "Various", "Review & Meta-Analysis", "31", "d = 1.29",
@@ -219,11 +212,7 @@ tribble(
 "Wakefield, Kellett, Simmonds-Buckley, Stockton, Bradbury & Delgadillo (2020)", "Anxiery & Depression", "IAPT", "Meta-Analysis", "47", "Depression (d = 0.87)<br>Anxiety (d = 0.88)<br>Functioning (d = 0.55)"
 
 ) %>% 
-<<<<<<< HEAD
-  gt(rowname_col = "Paper") %>% 
-=======
   gt() %>% 
->>>>>>> c5e63356136ae3724fa4a3ce46f450cac1221595
     tab_options(
     #row_group.background.color = "grey",
     row_group.font.size = 18,
@@ -254,9 +243,9 @@ tribble(
     columns = c(2:6)
     ) 
 )
-<<<<<<< HEAD
 
 ```
+
 
 ::: notes
 1.  Cahill: When benchmarked against data from efficacy studies, practice-based studies yielded effect sizes that fell short of the selected benchmark. In contrast, the practice-based studies achieved the benchmark for percentage of clients meeting a stringent criterion for recovery.
@@ -265,20 +254,6 @@ tribble(
 4.  Stewart & Chambless. The efficacy of cognitive--behavioral therapy (CBT) for anxiety in adults is well established. In the present study, the authors examined whether CBT tested under well-controlled conditions generalizes to less-controlled, real-world circumstances. Fifty-six effectiveness studies of CBT for adult anxiety disorders were located and synthesized. Meta-analytic effect sizes are presented for disorder-specific symptom measures as well as symptoms of generalized anxiety and depression for each disorder, and benchmarked to results from randomized controlled trials. All pretest--posttest effect sizes for disorder- specific symptom measures were large, suggesting that CBT for adult anxiety disorders is effective in clinically representative conditions. Six studies included a control group, and between-groups compar- isons yielded large effect sizes for disorder-specific symptoms in favor of CBT. Benchmarking indicated that results from effectiveness studies were in the range of those obtained in selected efficacy trials. To test whether studies that are more representative of clinical settings have smaller effect sizes, the authors coded studies for 9 criteria for clinical representativeness. Results indicate an inverse relationship between clinical representativeness and outcome, but the magnitude of the relationship is quite small.
 5.  Shaddish paper 2000. 90 studies. Effects increase with larger dose and when outcomes are specific to treatment.
 :::
-
-Increase with larger dose and when outcomes are specific to treatment.
-=======
-
-```
-
-::: notes
-1.  Cahill: When benchmarked against data from efficacy studies, practice-based studies yielded effect sizes that fell short of the selected benchmark. In contrast, the practice-based studies achieved the benchmark for percentage of clients meeting a stringent criterion for recovery.
-2.  Hunsley Paper (Narrative Review). John Hunsley, Katherine Elliott, and Zoé Therrien. We provide a narrative review of the extensive evidence that supports the efficacy and effectiveness of psychological treatments, across the life span, for common mental health disorders. To this end, relying primarily on meta-analytic studies, we examine the effects of psychological treatments for depression, bipolar disorder, generalised anxiety disorder, social anxiety disorder, specific phobia, panic disorder, obsessive--compulsive disorder, and posttraumatic stress disorder.
-3.  van Ingen paper. Daniel J. van Ingen University of Saint Thomas, Stacy R. Freiheit, Christopher S. Vye. A controversy exists over whether results of randomized controlled trials of psychological treatment methods generalize to routine clinical practice. To examine the generalizability of cognitive--behavioral interventions for anxiety disorders, a meta-analysis of 11 effectiveness studies was conducted. Only studies that closely approximated real-world clinical practice were included in the present meta-analysis (e.g., studies were conducted in a nonuniversity setting, practitioners had regular caseloads, clients were not excluded if they had comorbid conditions). Cognitive-- behavioral interventions were associated with significant improvement in anxiety symptoms at the end of treatment (dw 􏰀 1.35) and again at follow-up (dw 􏰀 1.14). On the basis of these results, it seems that cognitive--behavioral interventions for anxiety disorders generalize to real-world clinical practice.
-4.  Stewart & Chambless. The efficacy of cognitive--behavioral therapy (CBT) for anxiety in adults is well established. In the present study, the authors examined whether CBT tested under well-controlled conditions generalizes to less-controlled, real-world circumstances. Fifty-six effectiveness studies of CBT for adult anxiety disorders were located and synthesized. Meta-analytic effect sizes are presented for disorder-specific symptom measures as well as symptoms of generalized anxiety and depression for each disorder, and benchmarked to results from randomized controlled trials. All pretest--posttest effect sizes for disorder- specific symptom measures were large, suggesting that CBT for adult anxiety disorders is effective in clinically representative conditions. Six studies included a control group, and between-groups compar- isons yielded large effect sizes for disorder-specific symptoms in favor of CBT. Benchmarking indicated that results from effectiveness studies were in the range of those obtained in selected efficacy trials. To test whether studies that are more representative of clinical settings have smaller effect sizes, the authors coded studies for 9 criteria for clinical representativeness. Results indicate an inverse relationship between clinical representativeness and outcome, but the magnitude of the relationship is quite small.
-5.  Shaddish paper 2000. 90 studies. Effects increase with larger dose and when outcomes are specific to treatment.
-:::
->>>>>>> c5e63356136ae3724fa4a3ce46f450cac1221595
 
 The considerable growth of the PBE literature in the last decade and Implementation of empirically supported treatments across many settings warrants a comprehensive review of treatment outcomes data.
 
@@ -308,45 +283,45 @@ Aim = Updated review of available PBE studies. The objectives of the study were 
 
 ## Search Criteria
 
+
 ```{r}
-#| include: false
-#| eval: false
+#| include: true
+#| eval: true
 #| label: tbl-search-criteria
 #| tbl-cap: "Search criteria used in the systematic review."
 library(tidyverse)
 library(gt)
 
 gt::as_raw_html(
-  
 tribble(
   ~Effectiveness, ~Psychological, ~Limiters,
-"Practice based evidence", "Psycho* OR Therap [PsycInfo]", "English Language",
-"Routine practice", "Psycho* [CINAHL and MEDLINE]", "Adult Sample",
+"‘Practice based evidence’", "Psycho* OR Therap [PsycInfo]", "English Language",
+"‘Routine practice’", "Psycho* [CINAHL and MEDLINE]", "Adult Sample",
 "Benchmarking", NA, NA,
 "Transportability", NA, NA,
 "Transferability", NA, NA,
 "Clinical* representat", NA, NA,
-"External valid* N0 findings", NA, NA,
+"’External valid* N0 findings", NA, NA,
 "Applicab* N0 findings", NA, NA,
 "Applicab* N0 intervention*", NA, NA,
-"Empiric* support’ N0 treatment", NA, NA,
-"Empiric* support’ N0 intervention", NA, NA,
-"Clinical* Effective*’", NA, NA,
+"’Empiric* support’ N0 treatment", NA, NA,
+"’Empiric* support’ N0 intervention", NA, NA,
+"’Clinical* Effective*’", NA, NA,
 "Dissem* N0 treatment*", NA, NA,
 "Dissem* N0 intervention*", NA, NA,
-"Clinical Practice N0 intervention*", NA, NA,
-"Clinical Practice N0 treatment*", NA, NA,
-"Service deliv N0 intervention", NA, NA,
-"Service deliv N0 treatment", NA, NA,
-"Clinical* effective N2 evaluat", NA, NA,
-"Service deliv N0 evaluat", NA, NA,
+"‘Clinical Practice’ N0 intervention*", NA, NA,
+"‘Clinical Practice’ N0 treatment*", NA, NA,
+"’Service deliv’ N0 intervention", NA, NA,
+"’Service deliv’ N0 treatment", NA, NA,
+"’Clinical* effective’ N2 evaluat", NA, NA,
+"’Service deliv’ N0 evaluat", NA, NA,
 "Transporting", NA, NA,
-"Managed care setting", NA, NA,
+"‘Managed care setting’", NA, NA,
 "Uncontrolled", NA, NA,
-"Community clinic", NA, NA,
-"Community mental health centre", NA, NA,
-"Clinic setting", NA, NA,
-"Service setting", NA, NA
+"‘Community clinic’", NA, NA,
+"‘Community mental health centre’", NA, NA,
+"‘Clinic setting’", NA, NA,
+"‘Service setting’", NA, NA
 ) %>% 
   gt() %>% 
     tab_options(
@@ -367,16 +342,17 @@ tribble(
 
 ```
 
+
 ## Moderators
 
+
 ```{r}
-#| include: false
-#| eval: false
+#| include: true
+#| eval: true
 #| label: tbl-moderator-definitions
 #| tbl-cap: "Moderators used in the systematic review."
 
 gt::as_raw_html(
-  
 tribble(
   ~Moderator,                         ~Type,              ~Levels,        ~Notes,
     "Setting",                       "Categorical", "a) Outpatient<br>b) Inpatient<br>c) Mixed", NA,
@@ -414,10 +390,10 @@ tribble(
     Levels ~ px(150),
     Notes ~ px(150),
   )
-
 )
 
 ```
+
 
 ::: {style="text-align: center; padding: 200px 0;"}
 # Findings {background-color="#01364C"}
@@ -429,22 +405,24 @@ tribble(
 
 ## Overall Summary ES
 
+
 ```{r}
-#| include: false
-#| eval: false
+#| include: true
+#| eval: true
 #| label: tbl-summary-es
 #| tbl-cap: "Sub-group (categorical) moderator analyses for depression outcomes."
 
 gt::as_raw_html(
-  
 tribble(
-  ~Moderator, ~k,	  ~d,	   ~ci,	            	~p,	     ~I2,	     ~Q,
-"Depression",	140,	0.96,	"0.90-1.06",	 "< 0.001",	98.40,	3037.46,
-"Anxiety",  	84,	  0.80,	"0.73-0.92",	 "< 0.001",	97.52,	1488.88,
-"General",  	184,	1.01,	"0.93-1.08",	 "< 0.001",	98.92,	15685.18
+  ~Moderator, ~k,	  ~d,	~Lower,	~Upper,	~p,	~I2,	~Q,
+"Depression",	140,	0.96,	0.90,	1.06,	 "< 0.001",	98.40,	3037.46,
+"Anxiety",  	84,	  0.80,	0.73,	0.92,	 "< 0.001",	97.52,	1488.88,
+"General",  	184,	1.01,	0.93,	1.08,	 "< 0.001",	98.92,	15685.18
 ) %>% 
+  #group_by(moderator) %>% 
   gt()  %>%
   tab_options(
+    #row_group.background.color = "grey",
     row_group.font.size = 18,
     row_group.font.weight = "bold",
     column_labels.font.weight = "bold",
@@ -452,34 +430,23 @@ tribble(
     data_row.padding = px(10),
     table.width = pct(90),
     row_group.padding = px(5)
-  )  %>%
-    cols_label(
-    k = md("*k*"),
-    d = md("*d*"),
-    ci = "95% CI",
-    I2 = md("*I*<sup>2</sup>"),
-    p = md("*p*")
-    ) %>%
-  sub_missing(columns = 1:7, missing_text = "-") %>%
+  ) %>%
+  sub_missing(columns = 1:8, missing_text = "-") %>%
   gt::opt_row_striping(row_striping = T) %>%
   opt_stylize(style = 6, color = "gray") %>%
-   fmt_markdown(columns = everything()) %>%
-cols_align(
-  align = "center",
-  columns = c(2:7)
- ) %>%
-  tab_source_note(
-    source_note = md("*k* = number of studies, *d* = Cohen's d effect-size, CI = confidence intervals")
-  )
-
+   fmt_markdown(columns = everything())
+  # tab_source_note(
+  #   source_note = md())
 )
 ```
+
 
 ## Moderators
 
 ------------------------------------------------------------------------
 
 ## [Depression]{.red}
+
 
 ```{r}
 #| include: true
@@ -527,10 +494,9 @@ dat.depression <-
     )
 
 gt::as_raw_html(
-  
 dat.depression %>% 
-  mutate("ci" = ifelse (is.na(lower), NA, paste(lower, upper, sep = "-")
-  ), es = SMD) %>%
+  mutate("ci" = paste(lower, upper, sep = "-"),
+         es = SMD) %>% 
   group_by(mod) %>% 
   gt(rowname_col = "level") %>%
     cols_hide(columns = c(Q, upper, lower))  %>%
@@ -545,12 +511,8 @@ dat.depression %>%
     row_group.padding = px(4)
   ) %>%
     cols_label(
-    K = md("*k*"),
-    SMD = md("*d*"),
     ci = "95% CI",
-    I2 = md("*I*<sup>2</sup>"),
-    es = "Forest Plot",
-    ) %>% 
+    es = "Cohen's d") %>% 
     tab_header(
     title = md("**Depression** Outcomes"),
   ) %>%
@@ -558,7 +520,11 @@ dat.depression %>%
     align = "center",
     columns = c(2:10)
     ) %>%
-  sub_missing(columns = 1:9, missing_text = "") %>%
+  # tab_style(
+  #       style = cell_text(align = "left", indent = px(30)),
+  #       locations = cells_stub()
+  #   ) %>% 
+  sub_missing(columns = 1:7, missing_text = "-") %>%
   gt::opt_row_striping(row_striping = T) %>%
   opt_stylize(style = 6, color = "red") %>%
 gtExtras::gt_plt_conf_int(es, ci_columns = c(lower, upper), text_size = 2, ref_line = 0.96, width = 100,
@@ -570,7 +536,7 @@ cols_align(
   columns = c(2:10)
  )  %>%
   tab_source_note(
-    source_note = md("*k* = number of studies, *d* = Cohen's d effect-size, CI = confidence intervals<br>**Summary**: *d* = 0.96, *k* = 124, Tau<sup>2</sup> = 0.17[SE = 0.02], I<sup>2</sup> = 99.99%, R<sup>2</sup> = 19.28%")
+    source_note = md("*d* = 0.96, *k* = 124, Tau<sup>2</sup> = 0.17[SE = 0.02], I<sup>2</sup> = 99.99%, R<sup>2</sup> = 19.28%")
     ) %>% 
    fmt_markdown(columns = everything())
 
@@ -578,9 +544,11 @@ cols_align(
 
 ```
 
+
 ------------------------------------------------------------------------
 
-##  {background-color="white" style="color: #FF644E"}
+##  {background-color="white" style="color: red"}
+
 
 ```{r}
 #| include: true
@@ -598,7 +566,7 @@ dat.depression %>%
   geom_point() +
   geom_errorbar(aes(ymin = lower, ymax = upper)) +
   geom_hline(aes(yintercept = 0.96), linetype = "dashed", color = "red", linewidth = 1.4) +
-  geom_hline(aes(yintercept = 0), linetype = "dashed", color = "blue", linewidth = 1.4) +
+  geom_hline(aes(yintercept = 0), linetype = "dashed", color = "black", linewidth = 1.4) +
   scale_y_continuous(n.breaks = 10) +
   facet_grid(
     rows = vars(mod),
@@ -610,7 +578,7 @@ dat.depression %>%
   labs(x = "Sub-group moderator level", y = paste("Cohen's d"), caption = "Note. red line = pooled effect-size; blue line = 0 (no effect)") +
   theme(strip.text.y.right = element_text(angle = 270, size = 21, colour = "white", face = "bold"),
         strip.background = element_rect(colour="black",
-                                        fill="#E4220C"),
+                                        fill="red"),
         strip.placement = "left",
         legend.position = "bottom",
         plot.title.position = "plot",
@@ -622,9 +590,11 @@ dat.depression %>%
 
 ```
 
+
 ------------------------------------------------------------------------
 
 ## [Anxiety]{.blue}
+
 
 ```{r}
 #| include: true
@@ -671,11 +641,10 @@ dat.depression %>%
                    "Bai" = "BAI", "Gad-7" = "GAD 7"),
     ) 
    
-gt::as_raw_html(
-  
+#gt::as_raw_html(
 dat.anxiety %>% 
-  mutate("ci" = ifelse (is.na(lower), NA, paste(lower, upper, sep = "-")
-  ), es = SMD) %>%
+  mutate("ci" = paste(lower, upper, sep = "-"),
+         es = SMD) %>% 
   group_by(mod) %>% 
   gt(rowname_col = "level") %>%
     cols_hide(columns = c(Q, upper, lower))  %>%
@@ -689,12 +658,9 @@ dat.anxiety %>%
     table.width = pct(85),
     row_group.padding = px(4)
   ) %>%
-    cols_label(    K = md("*k*"),
-    SMD = md("Cohen's *d*"),
+    cols_label(
     ci = "95% CI",
-    I2 = md("*I*<sup>2</sup>"),
-    es = "Forest Plot"
-    ) %>% 
+    es = "Cohen's d") %>% 
     tab_header(
     title = md("**Anxiety** Outcomes"),
   ) %>%
@@ -702,6 +668,10 @@ dat.anxiety %>%
     align = "center",
     columns = c(2:10)
     ) %>%
+  # tab_style(
+  #       style = cell_text(align = "left", indent = px(30)),
+  #       locations = cells_stub()
+  #   ) %>% 
   sub_missing(columns = 1:7, missing_text = "-") %>%
   gt::opt_row_striping(row_striping = T) %>%
   opt_stylize(style = 6, color = "blue") %>%
@@ -714,20 +684,17 @@ cols_align(
   columns = c(2:10)
  )  %>%
   tab_source_note(
-    source_note = md("*k* = number of studies, *d* = Cohen's d effect-size, CI = confidence intervals<br>**Summary**: *d* = 0.8, *k* = 78, Tau<sup>2</sup> = 0.13[SE = 0.02], I<sup>2</sup> = 99.95%, R<sup>2</sup> = 40.55%")
+    source_note = md("*d* = 0.8, *k* = 78, Tau<sup>2</sup> = 0.13[SE = 0.02], I<sup>2</sup> = 99.95%, R<sup>2</sup> = 40.55%")
     )
-
-)   
+#)   
 
 ```
 
+
 ------------------------------------------------------------------------
 
-<<<<<<< HEAD
-##  {background-color="white" style="color: #00A1FF"}
-=======
 ##  {background-color="white"}
->>>>>>> c5e63356136ae3724fa4a3ce46f450cac1221595
+
 
 ```{r}
 #| include: true
@@ -755,10 +722,8 @@ dat.anxiety %>%
   coord_flip() +
   theme_bw() +
   labs(x = "Sub-group moderator level", y = paste("Cohen's d"), caption = "Note. red line = pooled effect-size; blue line = 0 (no effect)") +
-  theme(strip.text.y.right = element_text(colour = "white", angle = 270, size = 17),
+  theme(strip.text.y.right = element_text(angle = 270, size = 17),
         strip.placement = "left",
-        strip.background = element_rect(colour="black",
-                                        fill="#00A1FF"),
         legend.position = "bottom",
         plot.title.position = "plot",
         text = element_text(size = 20),
@@ -769,13 +734,11 @@ dat.anxiety %>%
 
 ```
 
+
 ------------------------------------------------------------------------
 
-<<<<<<< HEAD
-## [Other]{.green}
-=======
 ## [General]{.green}
->>>>>>> c5e63356136ae3724fa4a3ce46f450cac1221595
+
 
 ```{r}
 #| include: true
@@ -829,10 +792,9 @@ tribble(
     ) 
 
 gt::as_raw_html(
-  
 dat.general %>% 
-  mutate("ci" = ifelse (is.na(lower), NA, paste(lower, upper, sep = "-")
-  ), es = SMD) %>%
+  mutate("ci" = paste(lower, upper, sep = "-"),
+         es = SMD) %>% 
   group_by(mod) %>% 
   gt(rowname_col = "level") %>%
     cols_hide(columns = c(Q, upper, lower))  %>%
@@ -847,12 +809,8 @@ dat.general %>%
     row_group.padding = px(4)
   ) %>%
     cols_label(
-    K = md("*k*"),
-    SMD = md("Cohen's *d*"),
     ci = "95% CI",
-    I2 = md("*I*<sup>2</sup>"),
-    es = "Forest Plot"
-    ) %>% 
+    es = "Cohen's d") %>% 
     tab_header(
     title = md("**General** Outcomes"),
   ) %>%
@@ -860,6 +818,10 @@ dat.general %>%
     align = "center",
     columns = c(2:10)
     ) %>%
+  # tab_style(
+  #       style = cell_text(align = "left", indent = px(30)),
+  #       locations = cells_stub()
+  #   ) %>% 
   sub_missing(columns = 1:7, missing_text = "-") %>%
   gt::opt_row_striping(row_striping = T) %>%
   opt_stylize(style = 6, color = "green") %>%
@@ -872,19 +834,16 @@ cols_align(
   columns = c(2:10)
  )   %>%
   tab_source_note(
-    source_note = md("*k* = number of studies, *d* = Cohen's d effect-size, CI = confidence intervals<br>**Summary**: *d* = 1.01, *k* = 153, Tau<sup>2</sup> = 0.24[SE = 0.03], I<sup>2</sup> = 100%, R<sup>2</sup> = 21.44%")
+    source_note = md("*d* = 1.01, *k* = 153, Tau<sup>2</sup> = 0.24[SE = 0.03], I<sup>2</sup> = 100%, R<sup>2</sup> = 21.44%")
     )
-
 )
 ```
 
+
 ------------------------------------------------------------------------
 
-<<<<<<< HEAD
-##  {background-color="white" style="color: #038901"}
-=======
 ##  {background-color="white"}
->>>>>>> c5e63356136ae3724fa4a3ce46f450cac1221595
+
 
 ```{r}
 #| include: true
@@ -912,10 +871,8 @@ dat.general %>%
   coord_flip() +
   theme_bw() +
   labs(x = "Sub-group moderator level", y = paste("Cohen's d"), caption = "Note. red line = pooled effect-size; blue line = 0 (no effect)") +
-  theme(strip.text.y.right = element_text(angle = 270, size = 17, colour = "white"),
+  theme(strip.text.y.right = element_text(angle = 270, size = 17),
         strip.placement = "left",
-        strip.background = element_rect(colour="black",
-                                        fill="#038901"),
         legend.position = "bottom",
         plot.title.position = "plot",
         text = element_text(size = 20),
@@ -926,33 +883,9 @@ dat.general %>%
 
 ```
 
-<<<<<<< HEAD
-## [Multi-Meta Regression]{.pink}
 
-```{r}
-#| include: false
-#| eval: false
-#| label: tbl-multiple-meta
-#| tbl-cap: "Multiple meta-regression of moderators included in the review."
-
-gt::as_raw_html(
-  
-  tribble(
-~Moderator,        ~Depression,  ~Anxiety,  ~Other,        ~Notes,
-  "Continent",        paste(emo::ji("check")),      paste(emo::ji("check")),	      paste(emo::ji("cross mark")),            "**Depression**: UK samples had larger effect sizes compared to samples from Asia.<br>
-                                                                **Anxiety**: UK samples had larger effect sizes compared to samples from mainland Europe.",
-  "Severity",           paste(emo::ji("cross mark")),       paste(emo::ji("check")),        paste(emo::ji("cross mark")),            "**Anxiety**: Mild samples had larger effect sizes than moderate or severe samples.",
-  "Modality",           paste(emo::ji("cross mark")),       paste(emo::ji("check")),       paste(emo::ji("check")),          "**Anxiety**: CBT outperformed counselling interventions.<br>
-                                                                **Other**: CBT outperformed unspecified and psychodynamic interventions.",
-  "Treatment Stage",    paste(emo::ji("cross mark")),        paste(emo::ji("cross mark")),	       paste(emo::ji("cross mark")),            NA,
-  "Analysis",          paste(emo::ji("check")),              paste(emo::ji("cross mark")),         paste(emo::ji("cross mark")),            "**Depression**: completer samples outperformed ITT.",
-  "Experience",        paste(emo::ji("check")),              paste(emo::ji("cross mark")),	       paste(emo::ji("cross mark")),            "**Depression**: qualified staff outperformed trainees.",        
-  "Sample size",        paste(emo::ji("cross mark")),        paste(emo::ji("cross mark")),         paste(emo::ji("cross mark")),            NA,        
-  "Publication year",   paste(emo::ji("cross mark")),        paste(emo::ji("cross mark")),         paste(emo::ji("cross mark")),            NA,
-  "Sample age",         paste(emo::ji("cross mark")),        paste(emo::ji("cross mark")),         paste(emo::ji("cross mark")),            NA,
- " % Female",           paste(emo::ji("cross mark")),        paste(emo::ji("cross mark")),         paste(emo::ji("cross mark")),            NA
-=======
 ## Multi-Meta Regression
+
 
 ```{r}
 #| include: true
@@ -975,7 +908,6 @@ gt::as_raw_html(
   "Publication year",   NA,        NA,          NA,            NA,
   "Sample age",         NA,        NA,          NA,            NA,
  " % Female",           NA,        NA,          NA,            NA
->>>>>>> c5e63356136ae3724fa4a3ce46f450cac1221595
 ) %>% 
   gt(rowname_col = "Moderator") %>%
   tab_options(
@@ -989,24 +921,13 @@ gt::as_raw_html(
     row_group.padding = px(4)
   ) %>% 
     tab_header(
-<<<<<<< HEAD
-    title = md("**Multi-Meta Regression**"),
-=======
     title = md("**Multi-meta**"),
->>>>>>> c5e63356136ae3724fa4a3ce46f450cac1221595
   ) %>%
     cols_align(
     align = "center",
     columns = c(2:4)
     )  %>% 
    fmt_markdown(columns = everything()) %>%
-<<<<<<< HEAD
-  sub_missing(columns = 1:5, missing_text = "") %>%
-  gt::opt_row_striping(row_striping = T) %>%
-  opt_stylize(style = 6, color = "pink")
-
-
-=======
   # tab_style(
   #       style = cell_text(align = "left", indent = px(30)),
   #       locations = cells_stub()
@@ -1014,17 +935,14 @@ gt::as_raw_html(
   sub_missing(columns = 1:5, missing_text = "-") %>%
   gt::opt_row_striping(row_striping = T) %>%
   opt_stylize(style = 6, color = "pink")
->>>>>>> c5e63356136ae3724fa4a3ce46f450cac1221595
   ) 
 
 ```
 
-<<<<<<< HEAD
-## [Benchmarks]{.pink}
-=======
+
 
 ## [Benchmarks]{.blue}
->>>>>>> c5e63356136ae3724fa4a3ce46f450cac1221595
+
 
 ```{r}
 #| include: true
@@ -1051,72 +969,68 @@ gt::as_raw_html(
 dat.benchmarks <-
   tribble(
 ~Group,       ~Domain,       ~Setting,           ~es,     ~lower, ~upper,
-"Top 25%",    "Depression",	 "Outpatient Services",       1.68,   1.53,     1.83,    
-"Top 25%",    "Anxiety",     "Outpatient Services",       1.56,   1.38,     1.73,    
-"Top 25%",    "Other",       "Outpatient Services",       1.70,   1.54,     1.86,    
-"Average",    "Depression",	 "Outpatient Services",       0.94,   0.90,     0.97,    
-"Average",    "Anxiety",     "Outpatient Services",       0.84,   0.78,     0.89,    
-"Average",    "Other",       "Outpatient Services",       0.92,   0.89,     0.96,    
-"Bottom 25%", "Depression",	 "Outpatient Services",       0.46,   0.41,     0.52,    
-"Bottom 25%", "Anxiety",     "Outpatient Services",       0.37,   0.33,     0.42,    
-"Bottom 25%", "Other",       "Outpatient Services",       0.49,   0.43,     0.54,    
-"Top 25%",    "Depression",	 "Inpatient Services",        1.34,   1.16,     1.52,    
-"Top 25%",    "Anxiety",     "Inpatient Services",        1.07,   1.04,     1.09,    
-"Top 25%",    "Other",       "Inpatient Services",        1.67,   1.37,     1.97,    
-"Average",    "Depression",	 "Inpatient Services",        0.98,   0.81,     1.15,    
-"Average",    "Anxiety",     "Inpatient Services",        0.67,   0.42,     0.92,    
-"Average",    "Other",       "Inpatient Services",        1.04,   0.96,     1.11,    
-"Bottom 25%", "Depression",	 "Inpatient Services",        0.38,   0.26,     0.5,      
-"Bottom 25%", "Anxiety",     "Inpatient Services",        0.13,   0.03,     0.29,    
-"Bottom 25%", "Other",       "Inpatient Services",        0.58,   0.46,     0.69,    
-"Top 25%",    "Depression",	 "University Counselling Centers",                NA,   NA,        NA,                     
-"Top 25%",    "Anxiety",     "University Counselling Centers",                NA,   NA,        NA,                    
-"Top 25%",    "Other",       "University Counselling Centers",             1.47 ,   1.24,     1.69,  
-"Average",    "Depression",	 "University Counselling Centers",                NA,  NA,         NA,         
-"Average",    "Anxiety",     "University Counselling Centers",                NA,  NA,         NA,         
-"Average",    "Other",       "University Counselling Centers",             0.94,    0.84,       1.03,  
-"Bottom 25%", "Depression",	 "University Counselling Centers",                NA,   NA,        NA,                  
-"Bottom 25%", "Anxiety",     "University Counselling Centers",                NA,   NA,        NA,                  
-"Bottom 25%", "Other",       "University Counselling Centers",              0.64,  0.61,      0.67,  
-"Top 25%",    "Depression",	 "University Outpatient Clinics",      1.77,  1.50,      2.03,
-"Top 25%",    "Anxiety",     "University Outpatient Clinics",      1.80,  1.57,      2.02,
-"Top 25%",    "Other",       "University Outpatient Clinics",      1.14,  1.10,      1.18,
-"Average",    "Depression",	 "University Outpatient Clinics",      0.91,  0.87,      0.95,
-"Average",    "Anxiety",     "University Outpatient Clinics",      1.80,  1.57,      2.02,
-"Average",    "Other",       "University Outpatient Clinics",      0.86,  0.77,      0.94,
-"Bottom 25%", "Depression",	 "University Outpatient Clinics",      0.40,  0.27,      0.54,
-"Bottom 25%", "Anxiety",     "University Outpatient Clinics",      0.51,  0.44,      0.57,
-"Bottom 25%", "Other",       "University Outpatient Clinics",      0.41,  0.23,      0.59
+"Top 25%",    "Depression",	 "Outpatient",       1.68,   1.53,     1.83,    
+"Top 25%",    "Anxiety",     "Outpatient",       1.56,   1.38,     1.73,    
+"Top 25%",    "Other",       "Outpatient",       1.70,   1.54,     1.86,    
+"Average",    "Depression",	 "Outpatient",       0.94,   0.90,     0.97,    
+"Average",    "Anxiety",     "Outpatient",       0.84,   0.78,     0.89,    
+"Average",    "Other",       "Outpatient",       0.92,   0.89,     0.96,    
+"Bottom 25%", "Depression",	 "Outpatient",       0.46,   0.41,     0.52,    
+"Bottom 25%", "Anxiety",     "Outpatient",       0.37,   0.33,     0.42,    
+"Bottom 25%", "Other",       "Outpatient",       0.49,   0.43,     0.54,    
+"Top 25%",    "Depression",	 "Inpatient",        1.34,   1.16,     1.52,    
+"Top 25%",    "Anxiety",     "Inpatient",        1.07,   1.04,     1.09,    
+"Top 25%",    "Other",       "Inpatient",        1.67,   1.37,     1.97,    
+"Average",    "Depression",	 "Inpatient",        0.98,   0.81,     1.15,    
+"Average",    "Anxiety",     "Inpatient",        0.67,   0.42,     0.92,    
+"Average",    "Other",       "Inpatient",        1.04,   0.96,     1.11,    
+"Bottom 25%", "Depression",	 "Inpatient",        0.38,   0.26,     0.5,      
+"Bottom 25%", "Anxiety",     "Inpatient",        0.13,   0.03,     0.29,    
+"Bottom 25%", "Other",       "Inpatient",        0.58,   0.46,     0.69,    
+"Top 25%",    "Depression",	 "UCC",                NA,   NA,        NA,                     
+"Top 25%",    "Anxiety",     "UCC",                NA,   NA,        NA,                    
+"Top 25%",    "Other",       "UCC",             1.47 ,   1.24,     1.69,  
+"Average",    "Depression",	 "UCC",                NA,  NA,         NA,         
+"Average",    "Anxiety",     "UCC",                NA,  NA,         NA,         
+"Average",    "Other",       "UCC",             0.94,    0.84,       1.03,  
+"Bottom 25%", "Depression",	 "UCC",                NA,   NA,        NA,                  
+"Bottom 25%", "Anxiety",     "UCC",                NA,   NA,        NA,                  
+"Bottom 25%", "Other",       "UCC",              0.64,  0.61,      0.67,  
+"Top 25%",    "Depression",	 "Uni Clinics",      1.77,  1.50,      2.03,
+"Top 25%",    "Anxiety",     "Uni Clinics",      1.80,  1.57,      2.02,
+"Top 25%",    "Other",       "Uni Clinics",      1.14,  1.10,      1.18,
+"Average",    "Depression",	 "Uni Clinics",      0.91,  0.87,      0.95,
+"Average",    "Anxiety",     "Uni Clinics",      1.80,  1.57,      2.02,
+"Average",    "Other",       "Uni Clinics",      0.86,  0.77,      0.94,
+"Bottom 25%", "Depression",	 "Uni Clinics",      0.40,  0.27,      0.54,
+"Bottom 25%", "Anxiety",     "Uni Clinics",      0.51,  0.44,      0.57,
+"Bottom 25%", "Other",       "Uni Clinics",      0.41,  0.23,      0.59
 ) %>% mutate(d = es,
              ci = paste(lower, upper, sep = "-")
-) %>% relocate(Group, Domain, Setting, es, ci,  lower, upper) 
+) %>% relocate(Group, Domain, Setting, es, ci,  lower, upper)
 
 
 
 
 
 gt::as_raw_html(
-  
 dat.benchmarks %>% 
-  drop_na(es) %>% 
-  group_by(Domain, Setting) %>%
-  arrange(Domain) %>% 
-  gt(rowname_col = "Group") %>%
+  group_by(Setting) %>% 
+  gt(rowname_col = "Domain") %>%
     cols_hide(columns = c(upper, lower))  %>%
   tab_options(
+    #row_group.background.color = "grey",
     row_group.font.size = 16,
     row_group.font.weight = "bold",
     column_labels.font.weight = "bold",
     table.font.size = 14,
     data_row.padding = px(6),
     table.width = pct(85),
-    row_group.padding = px(4),
+    row_group.padding = px(4)
   ) %>%
-    fmt_markdown(columns = everything()) %>%
     cols_label(
     ci = "95% CI",
-    es = md("Cohen's *d*"),
-    d = "Forest Plot"
+    es = "Cohen's d"
       ) %>% 
     tab_header(
     title = md("**Benchmarks**"),
@@ -1124,7 +1038,11 @@ dat.benchmarks %>%
     cols_align(
     align = "center",
     columns = c(2:8)
-    ) %>% 
+    ) %>%
+  # tab_style(
+  #       style = cell_text(align = "left", indent = px(30)),
+  #       locations = cells_stub()
+  #   ) %>% 
   sub_missing(columns = 1:8, missing_text = "-") %>%
   gt::opt_row_striping(row_striping = T) %>%
   opt_stylize(style = 6, color = "pink") %>%
@@ -1134,6 +1052,7 @@ text_args = list(accuracy = .01)
   )
 )
 ```
+
 
 ## Publication Bias
 
@@ -1168,3 +1087,4 @@ text_args = list(accuracy = .01)
 ## Lessons
 
 Reproducible workflows. Project Management. Watertight protocol.
+
