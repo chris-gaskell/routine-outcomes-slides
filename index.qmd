@@ -5,9 +5,9 @@ format:
     include-in-header: 
       text: |
         <meta name="github-repo" content="chris-gaskell/routine-outcomes-slides"/>
-        <meta name="twitter:title" content="The effectiveness of psychological tnterventions in routine practice"/>
-        <meta name="twitter:description" content="The effectiveness of psychological tnterventions in routine practice"/>
-        <meta name="twitter:url" content="https://fnd-for-aps.netlify.app"/>
+        <meta name="twitter:title" content="The effectiveness of psychological Interventions in routine practice"/>
+        <meta name="twitter:description" content="Here are the slides from my presentation to the University of Sheffield"/>
+        <meta name="twitter:url" content="https://routine-therapy-outcomes.netlify.app/"/>
         <meta name="twitter:image" content="https://github.com/chris-gaskell/fnd-for-aps/blob/master/twitter-pic.jpg?raw=true"/>
         <meta name="twitter:image:alt" content="The effectiveness of psychological tnterventions in routine practice, 06/03/2023."/>
         <meta name="twitter:card" content="summary_large_image"/>
@@ -39,7 +39,7 @@ format:
 **The University of Sheffield Psychology**
 
 ::: {style="text-align: center"}
-[routine-therapy-outcomes.netlify.app](routine-therapy-outcomes.netlify.app){.uri style="text-align: center"}
+[routine-therapy-outcomes.netlify.app](https://routine-therapy-outcomes.netlify.app/){.uri style="text-align: center"}
 :::
 
 ![](https://images.unsplash.com/photo-1507537362848-9c7e70b7b5c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80){fig-align="center" width="500" height="300"}
@@ -67,7 +67,7 @@ North Staffordshire Combined Healthcare NHS Trust
 
 ------------------------------------------------------------------------
 
-## Disclaimers
+## Disclaimers {visibility="hidden"}
 
 -   I'm learning too[^1] :student:
 
@@ -77,15 +77,13 @@ North Staffordshire Combined Healthcare NHS Trust
 
 ::: columns
 ::: {.column width="50%"}
--   Overview of effectiveness research.
+-   Overview of Practice Based Evidence.
 
--   Rationale for the current study.
+-   Rationale for the Current Study.
 
 -   Findings & Limitations.
 
--   Provide thoughts on next steps.
-
--   Tiny overview of meta-analysis.
+-   Recent Developments.
 :::
 :::
 
@@ -93,17 +91,29 @@ North Staffordshire Combined Healthcare NHS Trust
 # Background {background-color="#01364C"}
 :::
 
-## What are the Highlights of Psychotherapy Research?
+## What Have we Learnt from Psychotherapy Research RCTs?
 
--   Vast number of RCTs demonstrating that the therapy is efficacious.
+-   Psychotherapy works! :white_check_mark:.
 
--   Specific therapies tend to fare about equal (I.e., Dodo bird effect).
+-   Different therapies fare about equal (i.e., **Dodo Bird Effect** :bird:).
 
--   Some therapists produce greater outcomes than others ('super shrinks'?).
+-   Some therapists produce greater outcomes (**Super Shrinks?** :superhero:).
 
--   Providing feedback tends to be a good thing.
+-   Providing feedback on progress leads to greater outcomes :up::mushroom:.
 
-## The problems with RCTs?
+-   Much improvement is actually achieved in the early sessions.
+
+::: notes
+-   Lots of interesting findings that have come out of quantitative psychotherapy research.
+
+-   I think that all of these findings are really interesting, particularly as someone who attempts to use therapy. I want to do a good job. So I take an interest in the area.
+
+-   But there does come a point where, and it was probably early stages of clinical training, being on placements, that I couldn't help but question the veracity of some of the RCTs that get reported.
+
+-   For me, working in my early clinical placements, Barnsley, how can the findings possible apply to the patient in front of me. How can this level of complexity be really represented in RCTs.
+:::
+
+## The Problems with RCTs?
 
 ::: columns
 ::: {.column width="50%"}
@@ -113,23 +123,17 @@ Advantages of RCTs
 
 -   :white_check_mark: High internal validity
 
--   :white_check_mark: Generalizability
-
 -   :white_check_mark: Reproducibility
 
 -   :white_check_mark: Objective and reliable
 :::
 
 ::: {.column width="50%"}
-::: incremental
 **However:**
 
 -   :x: High cost and resource-intensive
 -   :x: Ethical issues
 -   :x: Limited external validity
--   :x: Limited scope
--   :x: Unrepresentative samples
-:::
 :::
 :::
 
@@ -138,46 +142,48 @@ Advantages of RCTs
 
 1.  **Reduction of bias:** RCTs use randomization to allocate participants into different groups, which helps reduce bias and ensure that the groups are comparable in terms of baseline characteristics.
 2.  **High internal validity:** RCTs are considered the gold standard for evaluating the efficacy of interventions because they provide high internal validity, which means that they can establish causality between the intervention and the outcome.
-3.  **Generalizability:** RCTs typically involve a diverse sample of participants, which increases the generalizability of the findings to the wider population.
-4.  **Reproducibility:** RCTs provide a clear and detailed protocol for how the study was conducted, which allows other researchers to reproduce the study and test the results.
-5.  **Objective and reliable:** RCTs use standardized methods to collect data, which ensures that the results are objective and reliable.
+3.  **Reproducibility:** RCTs provide a clear and detailed protocol for how the study was conducted, which allows other researchers to reproduce the study and test the results.
+4.  **Objective and reliable:** RCTs use standardized methods to collect data, which ensures that the results are objective and reliable.
 
 **Disadvantages:**
 
 1.  **High cost and resource-intensive:** RCTs can be expensive and time-consuming, requiring significant funding and resources to conduct.
 2.  **Ethical issues:** In some cases, RCTs may involve withholding treatment from participants in the control group, which can raise ethical concerns.
-3.  **Limited external validity:** RCTs are often conducted in a highly controlled setting and may not fully reflect the real-world conditions in which the intervention will be used.
+3.  **Limited external validity:** RCTs are often conducted in a highly controlled setting and may not fully reflect the real-world conditions in which the intervention will be used. RCTs may exclude certain groups of people, such as those with comorbidities or those who are pregnant, which can limit the generalizability of the results to those groups.
 4.  **Limited scope:** RCTs are often designed to test a specific intervention, which means that they may not provide a comprehensive understanding of the broader context or underlying mechanisms.
-5.  **Unrepresentative samples:** RCTs may exclude certain groups of people, such as those with comorbidities or those who are pregnant, which can limit the generalizability of the results to those groups.
 :::
 
-## Transporting
+## But do Finding Hold True in (Routine) Practice?
 
-Important to continually monitor that treatments work under the conditions that they are purposefully designed for.
+Many reasons to expect that that the effects of psychotherapy delivered in routine care settings may **differ** from RCTS:
 
-Many reasons to assume that the effects of psychotherapy delivered in routine care settings may differ from those observed in clinical trials:
+-   Geographical effects.
 
--   Geographical effects
+-   Provision.
 
--   Provision
+-   Empirically Supported Treatments.
 
--   EBP
+-   Integrity.
 
--   Integrity
-
-However, similar treatment outcomes often found between efficacy trials and routine practice (e.g., Lutz et al., 2016; Persons et al., 1999).
-
-## Hour Glass Model
-
-![Salkovskis, P. M. (1995). Demonstrating specific effects in cognitive and behavioural therapy, in M. Aveline & D. Shapiro (Eds.), Research foundations for psychotherapy practice (pp. 191--228). Chichester, UK: Wiley. Taken from BABCP: https://babcp.com/Therapists/A-Cognitive-Behavioural-Therapists-Guide-to-Evidence](files/img/hour-glass.jpg)
+**So what do we do... ?**
 
 ::: notes
-Paul Salkovskis has proposed an hour-glass model of psychological treatment, which is a variation of the hour-glass model of research. The model outlines the process of psychological treatment, from the initial assessment to the termination of treatment.
+-   Important to continually monitor that treatments work under the conditions that they are purposefully designed for.
 
-The hour-glass model of psychological treatment proposed by Paul Salkovskis typically involves the following stages:
+-   Lots of reasons why they may not apply.
+
+    -   How does a service in Rotherham match the clinical in an RCT from an American University.
+
+    -   How can we get the same results if we can provide the number of sessions, training etc. in trials.
+
+    -   How can a service that aren't even using evidence based treatments claim to be as effective as ones that claim to do so.
+
+    -   How can we be sure that we are really using the interventions that was used in the trials. In routine practice it's quite rare, particularly when qualified for anyone to assess if someone is actually using the intervention as intended.
+
+-   How do we know this? We evaluate if things work in routine practice!
 :::
 
-## What is Practice-Based Research {background-color="white"}
+## Practice-Based Evidence {background-color="white"}
 
 ::: columns
 ::: {.column width="50%"}
@@ -189,11 +195,41 @@ The hour-glass model of psychological treatment proposed by Paul Salkovskis typi
 :::
 :::
 
-## Review of Effectiveness Research
+::: notes
+-   Well... the answer is. We shouldn't' assume that treatment effects automatically translate to routine practice.
+
+-   We should monitor it. We should do complementary research in routine settings .
+
+-   Different form of evidence - Practice based evidence (of effectiveness research).
+
+    -   Sata generated from the actual practice.
+
+    -   Typically gathered through systematic data collection from real-world settings.
+
+        Practice-based evidence is particularly useful in fields where interventions are complex and multifaceted, and where there is a high degree of variability in the populations being served. Or rare conditions by which we wouldn't be able to recruit enough people or fund an RCT.
+
+-   And this is really the bit that I became quite interested in. Doing research to check the things does actually work. Always felt relevant to me because, I work in routine practice, as I imaging may of you do too.
+
+-   Book - Read it during first year: cited it in every assignment/publication I have done since.
+
+-   Article - Synthesising the results across routine settings. So broadly speaking, when we look across research in routine practice, what do we see.
+:::
+
+## Hour Glass Model
+
+![Salkovskis, P. M. (1995). Demonstrating specific effects in cognitive and behavioural therapy, in M. Aveline & D. Shapiro (Eds.), Research foundations for psychotherapy practice (pp. 191--228). Chichester, UK: Wiley. Taken from BABCP: https://babcp.com/Therapists/A-Cognitive-Behavioural-Therapists-Guide-to-Evidence](files/img/hour-glass.jpg)
+
+::: notes
+Paul Salkovskis has proposed an hour-glass model of psychological treatment, which is a variation of the hour-glass model of research. The model outlines the process of psychological treatment, from the initial assessment to the termination of treatment.
+
+The hour-glass model of psychological treatment proposed by Paul Salkovskis typically involves the following stages:
+:::
+
+## Past Reviews of Practice Based Research
 
 ```{r}
-#| include: false
-#| eval: false
+#| include: true
+#| eval: true
 #| label: tbl-effectiveness-reviews
 #| tbl-cap: "Findings from Past Effectiveness Reviews."
 library(tidyverse)
@@ -203,15 +239,16 @@ gt::as_raw_html(
   
 tribble(
   ~Paper, ~Condition, ~Treatment, ~Method, ~Studies,  ~Finding,
-"Cahill, Barkham & Stiles (2010)", "Various", "Various", "Review & Meta-Analysis", "31", "d = 1.29",
-"Hunsley, Elliott & Therrien (2014)", "Mood & Anxiety Disorders",  "Various", "Narrative Review", NA, NA,
+"Shaddish, Matt, Navarro & Phillips (2000)", "Various", "Various", "Meta-Analysis", "90", NA,
 "Van Ingen, Freiheit & Vye (2009)", "Anxiety Disorders", "CBT", "Review & Meta-Analysis", "11", "d = 1.35 (d = 1.14 at follow up)",
 "Stewart & Chambless (2009)", "Anxiety Disorders", "CBT", "Review & Meta-Analysis", "56","Panic (0.83 - 1.23)<br> SAD (0.73 - 1.04)<br>PTSD (1.62 - 2.59)<br>GAD (0.89 - 0.92)<br>OCD (0.89 - 1.32)<br>",
-"Shaddish, Matt, Navarro & Phillips (2000)", "Various", "Various", "Meta-Analysis", "90", NA,
-"Wakefield, Kellett, Simmonds-Buckley, Stockton, Bradbury & Delgadillo (2020)", "Anxiery & Depression", "IAPT", "Meta-Analysis", "47", "Depression (d = 0.87)<br>Anxiety (d = 0.88)<br>Functioning (d = 0.55)"
+"Cahill, Barkham & Stiles (2010)", "Various", "Various", "Review & Meta-Analysis", "31", "d = 1.29",
+"Hunsley, Elliott & Therrien (2014)", "Mood & Anxiety Disorders",  "Various", "Narrative Review", NA, NA,
+"Wakefield, Kellett, Simmonds-Buckley, Stockton, Bradbury & Delgadillo (2020)", "Anxiety & Depression", "IAPT", "Meta-Analysis", "47", "Depression (d = 0.87)<br>Anxiety (d = 0.88)<br>Functioning (d = 0.55)"
 
 ) %>% 
-  gt(rowname_col = "Paper") %>% 
+  gt(#rowname_col = "Paper"
+     ) %>% 
     tab_options(
     #row_group.background.color = "grey",
     row_group.font.size = 18,
@@ -231,7 +268,7 @@ tribble(
     Condition ~ px(100),
     Treatment ~ px(100),
     Method ~ px(100),
-    Studies ~ px(50),
+    Studies ~ px(60),
     Finding ~ px(150),
   ) %>% 
     tab_header(
@@ -246,22 +283,60 @@ tribble(
 ```
 
 ::: notes
-1.  Cahill: When benchmarked against data from efficacy studies, practice-based studies yielded effect sizes that fell short of the selected benchmark. In contrast, the practice-based studies achieved the benchmark for percentage of clients meeting a stringent criterion for recovery.
-2.  Hunsley Paper (Narrative Review). John Hunsley, Katherine Elliott, and Zoé Therrien. We provide a narrative review of the extensive evidence that supports the efficacy and effectiveness of psychological treatments, across the life span, for common mental health disorders. To this end, relying primarily on meta-analytic studies, we examine the effects of psychological treatments for depression, bipolar disorder, generalised anxiety disorder, social anxiety disorder, specific phobia, panic disorder, obsessive--compulsive disorder, and posttraumatic stress disorder.
-3.  van Ingen paper. Daniel J. van Ingen University of Saint Thomas, Stacy R. Freiheit, Christopher S. Vye. A controversy exists over whether results of randomized controlled trials of psychological treatment methods generalize to routine clinical practice. To examine the generalizability of cognitive--behavioral interventions for anxiety disorders, a meta-analysis of 11 effectiveness studies was conducted. Only studies that closely approximated real-world clinical practice were included in the present meta-analysis (e.g., studies were conducted in a nonuniversity setting, practitioners had regular caseloads, clients were not excluded if they had comorbid conditions). Cognitive-- behavioral interventions were associated with significant improvement in anxiety symptoms at the end of treatment (dw 􏰀 1.35) and again at follow-up (dw 􏰀 1.14). On the basis of these results, it seems that cognitive--behavioral interventions for anxiety disorders generalize to real-world clinical practice.
-4.  Stewart & Chambless. The efficacy of cognitive--behavioral therapy (CBT) for anxiety in adults is well established. In the present study, the authors examined whether CBT tested under well-controlled conditions generalizes to less-controlled, real-world circumstances. Fifty-six effectiveness studies of CBT for adult anxiety disorders were located and synthesized. Meta-analytic effect sizes are presented for disorder-specific symptom measures as well as symptoms of generalized anxiety and depression for each disorder, and benchmarked to results from randomized controlled trials. All pretest--posttest effect sizes for disorder- specific symptom measures were large, suggesting that CBT for adult anxiety disorders is effective in clinically representative conditions. Six studies included a control group, and between-groups compar- isons yielded large effect sizes for disorder-specific symptoms in favor of CBT. Benchmarking indicated that results from effectiveness studies were in the range of those obtained in selected efficacy trials. To test whether studies that are more representative of clinical settings have smaller effect sizes, the authors coded studies for 9 criteria for clinical representativeness. Results indicate an inverse relationship between clinical representativeness and outcome, but the magnitude of the relationship is quite small.
-5.  Shaddish paper 2000. 90 studies. Effects increase with larger dose and when outcomes are specific to treatment.
+-   So what does PBE have to say about if psychotherapy works?
+
+-   Similar treatment outcomes are often found (e.g., Lutz et al., 2016; Persons et al., 1999).
+
+-   When there is lots of different PBE studies. Varying a lot. Then what do we do... we do our best to synthesis the evidence.
+
+-   Several attempts to synthesise the effects of therapy in routine settings.
+
+-   Only including observational data. No control groups.
+
+-   No experimental control, but good external validity.
+
+-   Generally show that treatment is effective; with large effect-sizes reported across a range of conditions and treatments.
+
+-   Apart from Wakefield paper. All done up until 2010. however limited to a single care sector.
+
+    -   A lot of research has been conducted since then.
+
+    -   Methods for synthesising research have developed.
+
+    -   Change in trends, more places using EBP.
 :::
 
-Increase with larger dose and when outcomes are specific to treatment.
+## Rationale
 
-The considerable growth of the PBE literature in the last decade and Implementation of empirically supported treatments across many settings warrants a comprehensive review of treatment outcomes data.
+-   Considerable growth of PBE in the last decade (and ESTs) :chart_with_upwards_trend:.
 
-Aim = Updated review of available PBE studies. The objectives of the study were to:
+-   Previous reviews vary in focus/setting.
 
-1.  Establish that treatments are effective.
-2.  Provide benchmarks so that services can compare
-3.  Examine sources of heterogeneity using moderator variables
+-   Benchmarks that apply to a broad range of services are warranted.
+
+-   Limited prior attempt to explore why effect-sizes differ.
+
+**Aim:** Broadly review the literature of PBE studies.
+
+::: notes
+-   Size and breadth.
+
+-   Meta-analytic bencmarks, for services to compare to. All well and good knowing that across 50 studies the pooled effects-size is 1.0. But what does that mean for how my service is performing.
+
+-   FINally, past reviews have been limited in attempting to explain WHY do some services within the meta-analysis have really large effects and some have really small effects.
+:::
+
+**Objectives:**
+
+1.  Assess the degree to which treatments are effective.
+
+2.  Provide benchmarks for services to compare to.
+
+3.  Examine sources of heterogeneity using moderator variables.
+
+    ::: notes
+    Do this using.... Meta analysis
+    :::
 
 ::: {style="text-align: center; padding: 200px 0;"}
 # Method {background-color="#01364C"}
@@ -273,7 +348,7 @@ Aim = Updated review of available PBE studies. The objectives of the study were 
 
 -   Throwing everything into a bucket and seeing what comes out.
 
--   Problem: **Statistical Dependence**
+-   Problem: **Statistical Independence**
 
 -   Various possible solutions
 
@@ -281,11 +356,29 @@ Aim = Updated review of available PBE studies. The objectives of the study were 
 
 ![](files/img/buckets.jpg){fig-align="center"}
 
+::: notes
+-   Doing that thing psych love to do. Taking lots of numbers, as many as we can find,. And finding a way to reduce and explain that using one number.
+
+-   Weighting.
+
+-   Everything into one bucket.
+
+-   However... we aren't interested in one thing. As many studies use multiple measures, we are going to want to potentially extract multiple effect-sizes from each study. Interested in if therapy is effective across conditions.
+
+-   This is a problem because multiple ESs. that come from one study are going to be more similar (correlated) than two effect-sizes from different studies.
+
+-   This is breaking the statistical assumption of independence. It has been a bit of a problem in these situations for a long time, various options:
+
+-   Other, predominantly general distress, some of them diagnosis specific.
+
+-   Multiple buckets (and there \[we will come back\] is one of the big limitations of this review).
+:::
+
 ## Search Criteria
 
 ```{r}
-#| include: false
-#| eval: false
+#| include: true
+#| eval: true
 #| label: tbl-search-criteria
 #| tbl-cap: "Search criteria used in the systematic review."
 library(tidyverse)
@@ -342,11 +435,15 @@ tribble(
 
 ```
 
+::: notes
+These are the search terms used in the systematic search, largely informed by the terms used in previous reviews.
+:::
+
 ## Moderators
 
 ```{r}
-#| include: false
-#| eval: false
+#| include: true
+#| eval: true
 #| label: tbl-moderator-definitions
 #| tbl-cap: "Moderators used in the systematic review."
 
@@ -357,7 +454,7 @@ tribble(
     "Setting",                       "Categorical", "a) Outpatient<br>b) Inpatient<br>c) Mixed", NA,
     "Analysis",                      "Categorical", "a) Included all patients<br>b) Only completers", NA,
     "Severity",                      "Categorical", "a) **Mild** services (primary care, physical health, university counselling, voluntary, private, EAP).<br>b) **Moderate** services (secondary care, CMHTs, specialist psychotherapy centers, managed care settings, or intensive outpatient programmes).<br>c) **Severe** services (inpatient samples).<br>d) **University** clinics (outpatient and training clinics).", NA,
-    "Modality",                      "Categorical", "a) **Cognitive-behavioral**.<br>b) **Psychodynamic Treatments**.<br>c) **Counselling** (e.g., person-centred, undefined).<br>d) **Other**.", "based on manuscript self-designation (i.e., if the manuscript described treatment as CBT, then that was coded). In the absence of these terms, modality of best-fit was decided using treatment descriptions. ",
+    "Modality",                      "Categorical", "a) **Cognitive-behavioral**.<br>b) **Psychodynamic**.<br>c) **Counselling** (e.g., person-centred, undefined).<br>d) **Other**.", "based on manuscript self-designation (i.e., if the manuscript described treatment as CBT, then that was coded). In the absence of these terms, modality of best-fit was decided using treatment descriptions. ",
     "Continent",                      "Categorical", "a) North America.<br>b) United Kingdom (UK).<br>c) Mainland Europe.<br>d) Australasia.<br>e) Asia", "The UK was separated from Europe because of the high representation of outcomes research coming from the UK",
     "Intervention Development Stage", "Categorical", "a) Preliminary studies (i.e., novel treatments/conditions).<br>b) Routine evaluations.", NA,
     "Experience",                     "Categorical", "a) Trainees.<br>b) Qualified professionals.", NA,
@@ -394,29 +491,51 @@ tribble(
 
 ```
 
+::: notes
+-   So with the buckets, we are reducing lots of studies down to a single number (effect-size).
+
+-   Meta-analyses also tell us how much individual studies differ (heterogeneity).This is really interesting because it opens a question, why do some studies in the MA do really well and some do not. What variables explain.
+
+-   Good news! MA can do this. It's debatable how good it is at doing this but nevertheless.
+
+-   It allows us to select a number of variables, that studies may differ on, and establish there are systematic differences.
+
+-   The idea is that these variables, or moderators, allow us to explain some of the variation.
+:::
+
 ::: {style="text-align: center; padding: 200px 0;"}
 # Findings {background-color="#01364C"}
 :::
 
-## Prisma {background-color="white"}
+## PRISMA {background-color="white"}
 
 ![Prisma flow diagram of studies throughout the review](files/img/prisma.jpg){#fig-surus alt="Prisma flow diagram of studies throughout the review" fig-align="center"}
 
-## Overall Summary ES
+::: notes
+-   This is a PRISMA. It is a graphical representation of the flow of information through a systematic review process.
+
+-   90000 unique results.
+
+-   Screened 600 papers.
+
+-   223 in meta-analysis.
+:::
+
+## Rates of Effectiveness
 
 ```{r}
-#| include: false
-#| eval: false
+#| include: true
+#| eval: true
 #| label: tbl-summary-es
 #| tbl-cap: "Sub-group (categorical) moderator analyses for depression outcomes."
 
 gt::as_raw_html(
   
 tribble(
-  ~Moderator, ~k,	  ~d,	   ~ci,	            	~p,	     ~I2,	     ~Q,
+  ~Outcome, ~k,	  ~d,	   ~ci,	            	~p,	     ~I2,	     ~Q,
 "Depression",	140,	0.96,	"0.90-1.06",	 "< 0.001",	98.40,	3037.46,
 "Anxiety",  	84,	  0.80,	"0.73-0.92",	 "< 0.001",	97.52,	1488.88,
-"General",  	184,	1.01,	"0.93-1.08",	 "< 0.001",	98.92,	15685.18
+"Other",  	184,	1.01,	"0.93-1.08",	 "< 0.001",	98.92,	15685.18
 ) %>% 
   gt()  %>%
   tab_options(
@@ -450,15 +569,98 @@ cols_align(
 )
 ```
 
-## Moderators
+::: notes
+-   This is a table showing the primary results of the Main meta-analysis.
+
+-   Circle main parts of the table.
+
+-   Take home point, is that. Routine treatment are effective across conditions.
+
+-   Little difference between domains.
+:::
 
 ------------------------------------------------------------------------
+
+```{r}
+#| include: true
+#| eval: true
+#| label: fig-effectiveness-comparisons
+#| fig-cap: "Comparisons to Past Effectiveness Reviews."
+library(tidyverse)
+library(gt)
+
+#gt::as_raw_html(
+  
+tribble(
+  ~Paper,                      ~Condition,                 ~Treatment,  ~Method,                ~Studies,  ~es, ~ci.lower, ~ci.upper,
+"Cahill et al., (2010)",      "Various",                   "Various",  "Review & Meta-Analysis",  31,        1.29,     1.26,         1.33,
+#"Hunsley et al., (2014)",     "Mood & Anxiety Disorders",  "Various",  "Narrative Review",        NA,          NA,      NA,         NA,
+"Van Ingen et al., (2009)",   "Anxiety Disorders",         "CBT",      "Review & Meta-Analysis",  11,        1.35,     NA,         NA,
+"Stewart et al., (2009)",     "Panic",                     "CBT",      "Review & Meta-Analysis",  9 ,        1.01,     0.77,         1.25,
+"Stewart et al., (2009)",     "SAD",                       "CBT",      "Review & Meta-Analysis",  11,        1.04,     0.79,         1.29,
+"Stewart et al., (2009)",     "PTSD",                      "CBT",      "Review & Meta-Analysis",  6,         2.59,     2.06,         3.13,
+"Stewart et al., (2009)",     "GAD",                       "CBT",      "Review & Meta-Analysis",  11,        0.89,     0.77,         1.07,
+"Stewart et al., (2009)",     "OCD",                       "CBT",      "Review & Meta-Analysis",  11,        1.32,     1.19,         1.45,
+#"Shaddish et al., (2000)",    "Various",                   "Various",  "Meta-Analysis",           90,         NA,      NA,         NA,
+"Wakefield et al., (2020)",   "Depression",                "IAPT",     "Meta-Analysis",           46,        0.87,     0.78,         0.96,
+"Wakefield et al., (2020)",   "Anxiety",                   "IAPT",     "Meta-Analysis",           41,        0.88,     0.79,         0.97,
+"Wakefield et al., (2020)",   "Functioning",               "IAPT",     "Meta-Analysis",           19,        0.55,     0.48,         0.61,
+"Gaskell et al., (2023)",      "Depression",                "IAPT",     "Meta-Analysis",          122,        0.96,     0.88,      1.04,
+"Gaskell et al., (2023)",      "Anxiety",                   "IAPT",     "Meta-Analysis",          69,         0.8,      0.71,      0.90,
+"Gaskell et al., (2023)",      "Other",                     "IAPT",     "Meta-Analysis",          158,        1.01,     0.93,      1.09
+
+
+) %>%
+  mutate(
+    n.prop = (max(Studies)/100)*Studies
+  ) %>% 
+  ggplot(aes(x = Condition)) +
+    scale_y_continuous(n.breaks = 10) +
+  geom_point(aes(y = es, size = Studies), width = 0, shape = 18) +
+  geom_errorbar(aes(ymin = ci.lower, ymax = ci.upper)) +
+    facet_grid(
+    rows = vars(Paper),
+    scales = "free_y", 
+    space = "free", labeller =
+      labeller(Paper = label_wrap_gen(16))
+  ) +
+  #geom_hline(aes(yintercept = 0.96), linetype = "dashed", color = "red", linewidth = 1.4) +
+  #geom_hline(aes(yintercept = 0), linetype = "dashed", color = "blue", linewidth = 1.4) +
+  scale_y_continuous(n.breaks = 8, limits = c(0, 3.5)) +
+  coord_flip() +
+  theme_bw(base_size = 14) +
+  labs(x = NULL,
+      y = paste("Cohen's d"), #caption = "Note. red line = pooled effect-size; blue line = 0 (no effect)"
+      ) +
+  theme(strip.text.y.right = element_text(angle = 0, size = 12, colour = "black", face = "bold"),
+        strip.background = element_rect(colour="black"),
+        strip.placement = "left",
+        legend.position = "none",
+        plot.title.position = "plot",
+        panel.grid.minor = element_blank()
+   )
+
+```
+
+::: notes
+-   This is a forest plot of different meta-analyses.
+
+-   Each review is represented by a diamond, with the size of the box indicating the number of studies. The center of the diamond represents the effect-size (e.g., mean difference) of the effect size for that study, while the horizontal line extending from the box represents the confidence interval for the effect size. Further to the right are more effective.
+
+-   In terms of comparing the to previous reviews. You can see the the current review, and the previous reviews, that provide meta-analytic findings are all included in this plot for comparison.
+
+-   My interpretation: Actually quite a narrow range, with two outliers (wakefield and stewart)
+
+-   Size of the diamond corresponds to the number of studies included in the meta.
+
+-   Effect-sizes for each of the domains, are largely in fitting with previous reviews.
+:::
 
 ## [Depression]{.red}
 
 ```{r}
-#| include: false
-#| eval: false
+#| include: true
+#| eval: true
 #| label: tbl-moderator-depression
 #| tbl-cap: "Sub-group (categorical) moderator analyses for depression outcomes."
 
@@ -553,13 +755,23 @@ cols_align(
 
 ```
 
+::: notes
+-   Not going to go through each moderator for each domain. Set of moderators for each domain, therefore there is one of these tables for each domain.
+
+-   There is a slide coming up shortly that should bring attention to the more salient findings.
+
+-   This is a table illustrating the different moderators, and the different levels within the moderators.
+
+-   Provide caveat about moderators. General heuristic to assess what conditions tend to fare slightly better, but this is based on an analysis which is likely to be underpowered and based upon observational findings.
+:::
+
 ------------------------------------------------------------------------
 
 ##  {background-color="white" style="color: #FF644E"}
 
 ```{r}
-#| include: false
-#| eval: false
+#| include: true
+#| eval: true
 #| label: fig-moderator-depression
 #| fig-cap: "Sub-group (categorical) moderator analyses for depression outcomes."
 #| fig-width: 25
@@ -602,8 +814,8 @@ dat.depression %>%
 ## [Anxiety]{.blue}
 
 ```{r}
-#| include: false
-#| eval: false
+#| include: true
+#| eval: true
 #| label: tbl-moderator-anxiety
 #| tbl-cap: "Sub-group (categorical) moderator analyses for anxiety outcomes."
  dat.anxiety <- 
@@ -701,8 +913,8 @@ cols_align(
 ##  {background-color="white" style="color: #00A1FF"}
 
 ```{r}
-#| include: false
-#| eval: false
+#| include: true
+#| eval: true
 #| label: fig-moderator-anxiety
 #| fig-cap: "Sub-group (categorical) moderator analyses for anxiety outcomes."
 #| fig-width: 20
@@ -745,12 +957,12 @@ dat.anxiety %>%
 ## [Other]{.green}
 
 ```{r}
-#| include: false
-#| eval: false
-#| label: tbl-moderator-general
-#| tbl-cap: "Sub-group (categorical) moderator analyses for general outcomes."
+#| include: true
+#| eval: true
+#| label: tbl-moderator-other
+#| tbl-cap: "Sub-group (categorical) moderator analyses for other outcomes."
 
-dat.general <- 
+dat.other <- 
 tribble(
  ~level,                   ~K,   ~SMD,      ~Q,       ~I2,      ~upper, ~lower, ~mod,
  "mild",                   61,   1.08,   39097618.6,  "100%",    1.21, 0.95,      "severity",
@@ -797,7 +1009,7 @@ tribble(
 
 gt::as_raw_html(
   
-dat.general %>% 
+dat.other %>% 
   mutate("ci" = ifelse (is.na(lower), NA, paste(lower, upper, sep = "-")
   ), es = SMD) %>%
   group_by(mod) %>% 
@@ -821,7 +1033,7 @@ dat.general %>%
     es = "Forest Plot"
     ) %>% 
     tab_header(
-    title = md("**General** Outcomes"),
+    title = md("**Other** Outcomes"),
   ) %>%
     cols_align(
     align = "center",
@@ -850,14 +1062,14 @@ cols_align(
 ##  {background-color="white" style="color: #038901"}
 
 ```{r}
-#| include: false
-#| eval: false
-#| label: fig-moderator-general
-#| fig-cap: "Sub-group (categorical) moderator analyses for general outcomes."
+#| include: true
+#| eval: true
+#| label: fig-moderator-other
+#| fig-cap: "Sub-group (categorical) moderator analyses for other outcomes."
 #| fig-width: 20
 #| fig-height: 16
 
-dat.general %>%
+dat.other %>%
   arrange(mod, level) %>% 
   mutate(level = recode(level, "Include" = "All starting treatment")) %>%
   filter(level != "" ) %>%
@@ -889,11 +1101,11 @@ dat.general %>%
 
 ```
 
-## [Multi-Meta Regression]{.pink}
+## [Multiple Meta Regression]{.pink}
 
 ```{r}
-#| include: false
-#| eval: false
+#| include: true
+#| eval: true
 #| label: tbl-multiple-meta
 #| tbl-cap: "Multiple meta-regression of moderators included in the review."
 
@@ -909,9 +1121,9 @@ gt::as_raw_html(
   "Treatment Stage",    paste(emo::ji("cross mark")),        paste(emo::ji("cross mark")),	       paste(emo::ji("cross mark")),            NA,
   "Analysis",          paste(emo::ji("check")),              paste(emo::ji("cross mark")),         paste(emo::ji("cross mark")),            "**Depression**: completer samples outperformed ITT.",
   "Experience",        paste(emo::ji("check")),              paste(emo::ji("cross mark")),	       paste(emo::ji("cross mark")),            "**Depression**: qualified staff outperformed trainees.",        
-  "Sample size",        paste(emo::ji("cross mark")),        paste(emo::ji("cross mark")),         paste(emo::ji("cross mark")),            NA,        
-  "Publication year",   paste(emo::ji("cross mark")),        paste(emo::ji("cross mark")),         paste(emo::ji("cross mark")),            NA,
-  "Sample age",         paste(emo::ji("cross mark")),        paste(emo::ji("cross mark")),         paste(emo::ji("cross mark")),            NA,
+  "Sample Size",        paste(emo::ji("cross mark")),        paste(emo::ji("cross mark")),         paste(emo::ji("cross mark")),            NA,        
+  "Publication Year",   paste(emo::ji("cross mark")),        paste(emo::ji("cross mark")),         paste(emo::ji("cross mark")),            NA,
+  "Sample Age",         paste(emo::ji("cross mark")),        paste(emo::ji("cross mark")),         paste(emo::ji("cross mark")),            NA,
  " % Female",           paste(emo::ji("cross mark")),        paste(emo::ji("cross mark")),         paste(emo::ji("cross mark")),            NA
 ) %>% 
   gt(rowname_col = "Moderator") %>%
@@ -942,11 +1154,23 @@ gt::as_raw_html(
 
 ```
 
+::: notes
+-   As we are using a lot of moderator variables. One thing we need to be aware of, is that two variables may be accounting for a shared proportion of heterogeneity. And therefore, like when you would run regression. It is best to do a multiple regression with all your variables, as opposed to running a linear regression for every variable.
+
+-   For the moderator of different continents:
+
+    -   **Continent:** It seemed that when entered in the multiple regression. The UK produced greater effect-size than Asia for depression outcomes; AND the UK produced greater effect-sizes than mainland Europe for anxiety.
+
+    -   **Severity:** for anxiety based outcomes, those treated in services for milder conditions demonstrated greater amounts of change than services treatment more severe/complex conditions.
+
+    -   **Modality:** For anxiety, CBT outperformed counselling. While for Other treatments, CBT outperformed psychodynamic treatments.
+:::
+
 ## [Benchmarks]{.pink}
 
 ```{r}
-#| include: false
-#| eval: false
+#| include: true
+#| eval: true
 #| label: tbl-moderator-benchmarks
 #| tbl-cap: "Benchmarks for routine services based on individual study sample quartiles."
 
@@ -1053,36 +1277,130 @@ text_args = list(accuracy = .01)
 )
 ```
 
-## Publication Bias
+::: notes
+-   For me this is perhaps one of the more interesting parts of the review.
+
+-   Doing a review on so many studies means that we have, what is, in effect, normative data for routine services.
+
+-   Now it is debatable how much published PBE represents unpublished PBE but still it is the closest thing we have to be able to develop some clinical benchmarks for what is a high performing service, an average services, or a low performing service.
+
+-   So you can see for the top tier (anxiety outpatients) that it is broken down into quartiles.
+
+-   So, it is hopes that services will be able to use this table to help them work our, roughly, how they are performing as a clinical service.
+:::
 
 ::: {style="text-align: center; padding: 200px 0;"}
 # What it means {background-color="#01364C"}
 :::
 
-## How does this fit with other evidence
+## What it Means?
 
-## Comparison to other PBE reviews
+-   Broadest meta-analytic study of routine therapy outcomes (*N* = 233,140, *k* = 223)
+-   Comparable (large) rates of effectiveness to other reviews of practice based evidence.
+-   All continents demonstrated positive change (*d* = 0.59--1.10) supporting the **universality hypothesis** (i.e., that psychotherapy is assumed to work across cultures; Flückiger et al., 2018).
+-   Some interesting findings from moderators (however there are power issues).
 
-## Comparison to RCTs
+::: notes
+-   Read from slides.
+:::
+
+## Making Sense of the Moderators
+
+-   **Continental Differences? UK/US appeared to outperform some regions.**
+    -   Potentially influenced by differences in models of training, service structures, therapy provision and emphasis on evidence-based practice?
+    -   *Note.* Some continents had very few studies.
+-   **So is Severity not Associated with Effect-Size?**
+    -   Inpatient **anxiety** samples fared less well.
+    -   Baseline severity not important for depression?
+    -   *Note.* Was our variable an Imprecise proxy?
+-   **Long live the Dodo Bird?**
+    -   CBT outperformed other treatments for the **other** outcomes category. Potentially due to influence on specific conditions (e.g., PTSD, OCD)?
+    -   Absence of evidence for CBT being superior for **anxiety** or **depression** category outcomes.
+-   **Maybe there [is]{.underline} something to say for Clinician Experience?**
+    -   Qualified clinicians out performed trainees for **depression** and **other** category outcomes.
+    -   Trainees fared slightly better for anxiety.
+        -   Potentially less likely to drift from EBP?
 
 ::: {style="text-align: center; padding: 200px 0;"}
 # Limitations {background-color="#01364C"}
 :::
 
-## the design
+## Limitations and Opportunities
 
-## Of the methods
+::: columns
+::: {.column width="50%"}
+-   :x: Reliance on Observational Evidence.
+-   :x: Outcome Domains & Statistical Dependency
+-   :x: Did Treatments Intended = Treatment Received.
+-   :x: Only Reflects Changes During Treatment Phase.
+-   :x: Exclusively Self-Report Data.
+:::
 
-## Of the Analysis
+::: {.column width="50%"}
+-   :white_check_mark: Nevertheless, valuable benchmarks.
+-   :white_check_mark: Robust variance and/or IPDMA.
+-   :white_check_mark: Re-analysis Focusing upon Fidelity Checks.
+-   :white_check_mark: Re-analysis Focusing upon Follow Up Evidence.
+-   :white_check_mark: Reliance upon Clinician Report as Moderator.
+:::
+:::
 
-::: {style="text-align: center; padding: 200px 0;"}
-# Shiny App {background-color="#01364C"}
+::: notes
+Read from slides.
+
+-   Regression to the mean less likely.
 :::
 
 ::: {style="text-align: center; padding: 200px 0;"}
-# Lessons Learnt {background-color="#01364C"}
+# Conclusions {background-color="#01364C"}
 :::
 
-## Lessons
+## Conclusion
 
-Reproducible workflows. Project Management. Watertight protocol.
+-   Treatments are highly effective in routine practice.
+
+-   **Nevertheless**, effects vary considerably across services.
+
+-   Performance benchmarks may help routine services through evaluation and practice development initiatives.
+
+-   **Next step:** Do treatment effects last?
+
+::: {style="text-align: center; padding: 200px 0;"}
+# Developments {background-color="#01364C"}
+:::
+
+## Publication {background-color="white"}
+
+![Gaskell, C., Simmonds-Buckley, M., Kellett, S., Stockton, C., Somerville, E,. Rogerson E., & Delgadillo, J. (2023). The effectiveness of psychological interventions delivered in routine practice: Systematic review and meta-analysis. Administration and Policy in Mental Health and Mental Health Services Research. 50, 43--57. https://doi.org/10.1007/s10488-022-01225-y](files/img/publication.jpg){alt="Shiny App for plotting benchmarks" fig-align="center" width="700" height="900"}
+
+::: notes
+-   Now published, in administrations & policy in MH service research.
+:::
+
+## Web App {background-color="white"}
+
+Allows services to generate an effect-size and compare it to benchmarks from the paper.
+
+![Shiny App for plotting benchmarks.](files/img/app.jpg){fig-align="center"}
+
+<https://chris-gaskell.shinyapps.io/effectiveness-meta-shiny>
+
+::: notes
+-   App is based on the outcomes from the individual studies in the meta-analyses.
+
+-   It takes the previous benchmark tables presented earlier to a more granular level.
+
+-   Allows service to input some basic service data and generate.
+:::
+
+## Lessons Learnt & Top Tips {visibility="hidden"}
+
+1.  Watertight protocol.
+
+2.  Project Management.
+
+3.  Reproducible workflows.
+
+::: {style="text-align: center; padding: 200px 0;"}
+# Thanks for Listening! {background-color="#01364C"}
+:::
