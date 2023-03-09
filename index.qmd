@@ -8,8 +8,8 @@ format:
         <meta name="twitter:title" content="The effectiveness of psychological Interventions in routine practice"/>
         <meta name="twitter:description" content="Here are the slides from my presentation to the University of Sheffield"/>
         <meta name="twitter:url" content="https://routine-therapy-outcomes.netlify.app/"/>
-        <meta name="twitter:image" content="https://github.com/chris-gaskell/fnd-for-aps/blob/master/twitter-pic.jpg?raw=true"/>
-        <meta name="twitter:image:alt" content="The effectiveness of psychological tnterventions in routine practice, 06/03/2023."/>
+        <meta name="twitter:image" content="https://github.com/chris-gaskell/routine-outcomes-slides/blob/master/front-cover.jpg?raw=true"/>
+        <meta name="twitter:image:alt" content="The effectiveness of psychological Interventions in routine practice, 06/03/2023."/>
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:creator" content="@chrisgaskell92/>
         <meta name="twitter:site" content="@chrisgaskell92"/>
